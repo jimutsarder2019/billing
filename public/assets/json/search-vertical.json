@@ -1,0 +1,288 @@
+{
+    "pages": [
+        {
+            "name": "Dashboard",
+            "icon": "ti-smart-home",
+            "url": "\/"
+        },
+        {
+            "url": "mini-dashboard",
+            "name": "Mini Dashboard",
+            "icon": "menu-icon bi bi-house-door",
+            "permission": "Mini Dashboard"
+        },
+        {
+            "url": "managers\/manager-list",
+            "name": "Manager List",
+            "slug": "managers-manager-list",
+            "permission": "Managers"
+        },
+        {
+            "url": "managers-ledger",
+            "name": "Managers Ledger",
+            "slug": "managers-ledger",
+            "permission": "managers-ledger"
+        },
+        {
+            "url": "managers\/roles",
+            "name": "Roles",
+            "slug": "managers\/roles",
+            "permission": "Role"
+        },
+        {
+            "url": "managers\/log-history",
+            "name": "Activity Log",
+            "slug": "managers\/log-history",
+            "permission": "Activity Log All"
+        },
+        {
+            "url": "user\/add-user",
+            "name": "Add User",
+            "slug": "user-add-customer",
+            "permission": "Add User"
+        },
+        {
+            "url": "user\/view-user",
+            "name": "View User",
+            "slug": "user-view-user",
+            "permission": "View User"
+        },
+        {
+            "url": "user\/pending-user",
+            "name": "Pending User",
+            "slug": "user\/pending-user",
+            "permission": "Pending User"
+        },
+        {
+            "url": "users\/delete-users",
+            "name": "Delete Users",
+            "slug": "user\/delete-users",
+            "permission": "Delete Users"
+        },
+        {
+            "url": "user\/mikrotik-import-user",
+            "name": "Mikrotik Import User",
+            "slug": "user\/mikrotik-import-user",
+            "permission": "Pending User"
+        },
+        {
+            "url": "user\/customer-user",
+            "name": "New Registration User",
+            "slug": "user\/customer-user",
+            "permission": "New Registration User"
+        },
+        {
+            "url": "user\/expire-customer",
+            "name": "Expired User",
+            "slug": "user\/expire-customer",
+            "permission": "Expired User"
+        },
+        {
+            "name": "MikroTik Online User",
+            "url": "user\/mktonline-user",
+            "slug": "user-online-mikrotik_online_user",
+            "permission": "MikroTik Online User"
+        },
+        {
+            "url": "mikrotik\/add-mirotik",
+            "name": "Add Mikrotik",
+            "slug": "mikrotik-add-mikrotik",
+            "permission": "Mikrotik Add"
+        },
+        {
+            "url": "mikrotik\/view-mirotik",
+            "name": "View Mikrotik",
+            "slug": "mikrotik-view-mikrotik",
+            "permission": "Mikrotik Add"
+        },
+        {
+            "url": "mikrotik\/ip-pool",
+            "name": "Mikrotik IP Pool",
+            "slug": "mikrotik-ip-pool",
+            "permission": "Mikrotik IP Pool"
+        },
+        {
+            "url": "packages\/add-package",
+            "name": "Add Package",
+            "slug": "Add Package",
+            "permission": "Add Package"
+        },
+        {
+            "url": "packages\/view-package",
+            "name": "View Package",
+            "slug": "packages-view-package",
+            "permission": "View Package"
+        },
+        {
+            "url": "network\/division",
+            "name": "Divisions",
+            "slug": "network\/division",
+            "permission": "Divisions"
+        },
+        {
+            "url": "network\/district",
+            "name": "Districts",
+            "slug": "network\/district",
+            "permission": "Districts"
+        },
+        {
+            "url": "network\/thana",
+            "name": "Thana",
+            "slug": "network\/thana",
+            "permission": "Thana"
+        },
+        {
+            "url": "network\/view-zone",
+            "name": "Zone",
+            "slug": "network-view-zone",
+            "permission": "Zone"
+        },
+        {
+            "url": "network\/view-sub-zone",
+            "name": "Sub-Zone",
+            "slug": "network-view-sub-zone",
+            "permission": "Sub-Zone"
+        },
+        {
+            "url": "network\/olt",
+            "name": "OLT",
+            "slug": "network\/olt",
+            "permission": "OLT"
+        },
+        {
+            "url": "network\/onu",
+            "name": "ONU",
+            "slug": "network\/onu",
+            "permission": "ONU"
+        },
+        {
+            "url": "accounts\/category",
+            "name": "Account Category",
+            "slug": "account-category",
+            "permission": "Account-Category"
+        },
+        {
+            "url": "accounts\/daily-incomes",
+            "name": "Daily Income",
+            "slug": "account-daily-income",
+            "permission": "Daily-Income"
+        },
+        {
+            "url": "accounts\/daily-expense",
+            "name": "Daily Expenses",
+            "slug": "account-daily-expenses",
+            "permission": "Daily-Expenses"
+        },
+        {
+            "url": "account\/summary",
+            "name": "Summary",
+            "slug": "account-summary",
+            "permission": "Summary"
+        },
+        {
+            "url": "billing\/invoice",
+            "name": "Invoice",
+            "slug": "invoice.index",
+            "permission": "Invoice"
+        },
+        {
+            "url": "billing\/receive-invoice",
+            "name": "Received Payments",
+            "slug": "billing-receive-invoice",
+            "permission": "Received Payments"
+        },
+        {
+            "url": "sms\/sms_templates",
+            "name": "SMS Template",
+            "slug": "sms\/sms_templates",
+            "permission": "SMS Template"
+        },
+        {
+            "url": "sms\/sms-api",
+            "name": "SMS Api",
+            "slug": "sms\/sms-api",
+            "permission": "SMS Api Add"
+        },
+        {
+            "url": "sms\/send-sms",
+            "name": "Send SMS",
+            "slug": "sms-send-sms",
+            "permission": "SMS Send sms"
+        },
+        {
+            "url": "sms\/sms-report",
+            "name": "SMS Report",
+            "slug": "sms\/sms-report",
+            "permission": "SMS Report"
+        },
+        {
+            "name": "Settings",
+            "url": "settings",
+            "icon": "menu-icon bi bi-gear",
+            "slug": "settings.index",
+            "permission": "Settings"
+        },
+        {
+            "name": "BTRC Report",
+            "icon": "menu-icon bi bi-info-circle",
+            "url": "report\/btrc",
+            "slug": "reprot.btrc",
+            "permission": "BTRC Report"
+        }
+    ],
+    "files": [
+        {
+            "name": "Class Attendance",
+            "subtitle": "By Tommy Shelby",
+            "src": "img\/icons\/misc\/search-xls.png",
+            "meta": "17kb",
+            "url": "javascript:;"
+        }
+    ],
+    "managers": [
+        {
+            "id": 1,
+            "name": "user",
+            "subtitle": "user@gmail.com",
+            "url": "manager-profile\/1"
+        },
+        {
+            "id": 2,
+            "name": "account zubairIT",
+            "subtitle": "account@zubairit.com",
+            "url": "manager-profile\/2"
+        },
+        {
+            "id": 3,
+            "name": "reseller",
+            "subtitle": "reseller@zubairit.com",
+            "url": "manager-profile\/3"
+        }
+    ],
+    "members": [
+        {
+            "id": 1,
+            "name": "kingnayeem | 8801708169671",
+            "subtitle": "King Nayeem",
+            "url": "http:\/\/127.0.0.1:8000\/user\/customer-user\/1",
+            "manager_id": 1,
+            "customer_for": "app_manager"
+        },
+        {
+            "id": 7,
+            "name": "expirecheck | 8811223344556",
+            "subtitle": "expirecheck",
+            "url": "http:\/\/127.0.0.1:8000\/user\/customer-user\/7",
+            "manager_id": 1,
+            "customer_for": "app_manager"
+        },
+        {
+            "id": 8,
+            "name": "test1 | 8801711667912",
+            "subtitle": "MD ZUBAIR ISLAM",
+            "url": "http:\/\/127.0.0.1:8000\/user\/customer-user\/8",
+            "manager_id": 1,
+            "customer_for": "app_manager"
+        }
+    ]
+}

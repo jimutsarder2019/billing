@@ -1,0 +1,1425 @@
+{
+    "pages": [
+        {
+            "name": "Dashboard Analytics",
+            "icon": "ti-smart-home",
+            "url": "\/"
+        },
+        {
+            "name": "Dashboard CRM",
+            "icon": "ti-smart-home",
+            "url": "dashboard\/crm"
+        },
+        {
+            "name": "Dashboard eCommerce",
+            "icon": "ti-smart-home",
+            "url": "dashboard\/ecommerce"
+        },
+        {
+            "name": "Layout Without menu",
+            "icon": "ti-layout-sidebar",
+            "url": "layouts\/without-menu"
+        },
+        {
+            "name": "Layout Fluid",
+            "icon": "ti-layout-sidebar",
+            "url": "layouts\/fluid"
+        },
+        {
+            "name": "Layout Container",
+            "icon": "ti-layout-sidebar",
+            "url": "layouts\/container"
+        },
+        {
+            "name": "Layout Blank",
+            "icon": "ti-layout-sidebar",
+            "url": "layouts\/blank"
+        },
+        {
+            "name": "Email",
+            "icon": "ti-mail",
+            "url": "app\/email"
+        },
+        {
+            "name": "Chat",
+            "icon": "ti-messages",
+            "url": "app\/chat"
+        },
+        {
+            "name": "Calendar",
+            "icon": "ti-calendar",
+            "url": "app\/calendar"
+        },
+        {
+            "name": "Kanban",
+            "icon": "ti-layout-kanban",
+            "url": "app\/kanban"
+        },
+        {
+            "name": "User List",
+            "icon": "ti-list-numbers",
+            "url": "app\/user\/list"
+        },
+        {
+            "name": "User View - Account",
+            "icon": "ti-user",
+            "url": "app\/user\/view\/account"
+        },
+        {
+            "name": "User View - Security",
+            "icon": "ti-shield-chevron",
+            "url": "app\/user\/view\/security"
+        },
+        {
+            "name": "User View - Billing & Plans",
+            "icon": "ti-file-text",
+            "url": "app\/user\/view\/billing"
+        },
+        {
+            "name": "User View - Notifications",
+            "icon": "ti-notification",
+            "url": "app\/user\/view\/notifications"
+        },
+        {
+            "name": "User View - Connections",
+            "icon": "ti-brand-google",
+            "url": "app\/user\/view\/connections"
+        },
+        {
+            "name": "Roles",
+            "icon": "ti-shield-checkered",
+            "url": "app\/access-roles"
+        },
+        {
+            "name": "Permission",
+            "icon": "ti-ban",
+            "url": "app\/access-permission"
+        },
+        {
+            "name": "Invoice List",
+            "icon": "ti-list-numbers",
+            "url": "app\/invoice\/list"
+        },
+        {
+            "name": "Invoice Preview",
+            "icon": "ti-file-text",
+            "url": "app\/invoice\/preview"
+        },
+        {
+            "name": "Invoice Edit",
+            "icon": "ti-pencil",
+            "url": "app\/invoice\/edit"
+        },
+        {
+            "name": "Invoice Add",
+            "icon": "ti-user-plus",
+            "url": "app\/invoice\/add"
+        },
+        {
+            "name": "User Profile",
+            "icon": "ti-user-circle",
+            "url": "pages\/profile-user"
+        },
+        {
+            "name": "User Profile - Teams",
+            "icon": "ti-users",
+            "url": "pages\/profile-teams"
+        },
+        {
+            "name": "User Profile - Projects",
+            "icon": "ti-layout-grid",
+            "url": "pages\/profile-projects"
+        },
+        {
+            "name": "User Profile - Connections",
+            "icon": "ti-link",
+            "url": "pages\/profile-connections"
+        },
+        {
+            "name": "Account Settings - Account",
+            "icon": "ti-user",
+            "url": "pages\/account-settings-account"
+        },
+        {
+            "name": "Account Settings - Security",
+            "icon": "ti-shield-chevron",
+            "url": "pages\/account-settings-security"
+        },
+        {
+            "name": "Account Settings - Billing & Plans",
+            "icon": "ti-file-text",
+            "url": "pages\/account-settings-billing"
+        },
+        {
+            "name": "Account Settings - Notifications",
+            "icon": "ti-notification",
+            "url": "pages\/account-settings-notifications"
+        },
+        {
+            "name": "Account Settings - Connections",
+            "icon": "ti-link",
+            "url": "pages\/account-settings-connections"
+        },
+        {
+            "name": "FAQ",
+            "icon": "ti-help",
+            "url": "pages\/faq"
+        },
+        {
+            "name": "Help Center Landing",
+            "icon": "ti-lifebuoy",
+            "url": "pages\/help-center-landing"
+        },
+        {
+            "name": "Help Center Categories",
+            "icon": "ti-lifebuoy",
+            "url": "pages\/help-center-categories"
+        },
+        {
+            "name": "Help Center Article",
+            "icon": "ti-lifebuoy",
+            "url": "pages\/help-center-article"
+        },
+        {
+            "name": "Pricing",
+            "icon": "ti-diamond",
+            "url": "pages\/pricing"
+        },
+        {
+            "name": "Error",
+            "icon": "ti-alert-circle",
+            "url": "pages\/misc-error"
+        },
+        {
+            "name": "Under Maintenance",
+            "icon": "ti-barrier-block",
+            "url": "pages\/misc-under-maintenance"
+        },
+        {
+            "name": "Coming Soon",
+            "icon": "ti-clock",
+            "url": "pages\/misc-comingsoon"
+        },
+        {
+            "name": "Not Authorized",
+            "icon": "ti-user-x",
+            "url": "pages\/misc-not-authorized"
+        },
+        {
+            "name": "Login Basic",
+            "icon": "ti-login",
+            "url": "auth\/login-basic"
+        },
+        {
+            "name": "Login Cover",
+            "icon": "ti-login",
+            "url": "auth\/login-cover"
+        },
+        {
+            "name": "Register Basic",
+            "icon": "ti-user-plus",
+            "url": "auth\/register-basic"
+        },
+        {
+            "name": "Register Cover",
+            "icon": "ti-user-plus",
+            "url": "auth\/register-cover"
+        },
+        {
+            "name": "Register Multi-steps",
+            "icon": "ti-user-plus",
+            "url": "auth\/register-multisteps"
+        },
+        {
+            "name": "Verify Email Basic",
+            "icon": "ti-mail",
+            "url": "auth\/verify-email-basic"
+        },
+        {
+            "name": "Verify Email Cover",
+            "icon": "ti-mail",
+            "url": "auth\/verify-email-cover"
+        },
+        {
+            "name": "Reset Password Basic",
+            "icon": "ti-help",
+            "url": "auth\/reset-password-basic"
+        },
+        {
+            "name": "Reset Password Cover",
+            "icon": "ti-help",
+            "url": "auth\/reset-password-cover"
+        },
+        {
+            "name": "Forgot Password Basic",
+            "icon": "ti-question-mark",
+            "url": "auth\/forgot-password-basic"
+        },
+        {
+            "name": "Forgot Password Cover",
+            "icon": "ti-question-mark",
+            "url": "auth\/forgot-password-cover"
+        },
+        {
+            "name": "Two Steps Verification Basic",
+            "icon": "ti-question-mark",
+            "url": "auth\/two-steps-basic"
+        },
+        {
+            "name": "Two Steps Verification Cover",
+            "icon": "ti-question-mark",
+            "url": "auth\/two-steps-cover"
+        },
+        {
+            "name": "Modal Examples",
+            "icon": "ti-square",
+            "url": "modal-examples"
+        },
+        {
+            "name": "Checkout Wizard",
+            "icon": "ti-shopping-cart",
+            "url": "wizard\/ex-checkout"
+        },
+        {
+            "name": "Property Listing Wizard",
+            "icon": "ti-building-cottage",
+            "url": "wizard\/ex-property-listing"
+        },
+        {
+            "name": "Create Deal Wizard",
+            "icon": "ti-gift",
+            "url": "wizard\/ex-create-deal"
+        },
+        {
+            "name": "Tabler",
+            "icon": "ti-pencil",
+            "url": "icons\/tabler"
+        },
+        {
+            "name": "Font Awesome",
+            "icon": "ti-typography",
+            "url": "icons\/font-awesome"
+        },
+        {
+            "name": "Basic Cards",
+            "icon": "ti-credit-card",
+            "url": "cards\/basic"
+        },
+        {
+            "name": "Advance Cards",
+            "icon": "ti-id",
+            "url": "cards\/advance"
+        },
+        {
+            "name": "Statistics Cards",
+            "icon": "ti-chart-bar",
+            "url": "cards\/statistics"
+        },
+        {
+            "name": "Analytics Cards",
+            "icon": "ti-chart-bar",
+            "url": "cards\/analytics"
+        },
+        {
+            "name": "Actions Cards",
+            "icon": "ti-mouse-2",
+            "url": "cards\/actions"
+        },
+        {
+            "name": "Accordion",
+            "icon": "ti-arrows-maximize",
+            "url": "ui\/accordion"
+        },
+        {
+            "name": "Alerts",
+            "icon": "ti-alert-triangle",
+            "url": "ui\/alerts"
+        },
+        {
+            "name": "Badges",
+            "icon": "ti-badge",
+            "url": "ui\/badges"
+        },
+        {
+            "name": "Buttons",
+            "icon": "ti-circle-plus",
+            "url": "ui\/buttons"
+        },
+        {
+            "name": "Carousel",
+            "icon": "ti-photo",
+            "url": "ui\/carousel"
+        },
+        {
+            "name": "Collapse",
+            "icon": "ti-arrows-minimize",
+            "url": "ui\/collapse"
+        },
+        {
+            "name": "Dropdowns",
+            "icon": "ti-arrow-autofit-height",
+            "url": "ui\/dropdowns"
+        },
+        {
+            "name": "Footer",
+            "icon": "ti-layout-bottombar",
+            "url": "ui\/footer"
+        },
+        {
+            "name": "List Groups",
+            "icon": "ti-list-numbers",
+            "url": "ui\/list-groups"
+        },
+        {
+            "name": "Modals",
+            "icon": "ti-layout",
+            "url": "ui\/modals"
+        },
+        {
+            "name": "Navbar",
+            "icon": "ti-layout-navbar",
+            "url": "ui\/navbar"
+        },
+        {
+            "name": "Offcanvas",
+            "icon": "ti-layout",
+            "url": "ui\/offcanvas"
+        },
+        {
+            "name": "Pagination & Breadcrumbs",
+            "icon": "ti-chevrons-right",
+            "url": "ui\/pagination-breadcrumbs"
+        },
+        {
+            "name": "Progress",
+            "icon": "ti-adjustments-horizontal",
+            "url": "ui\/progress"
+        },
+        {
+            "name": "Spinners",
+            "icon": "ti-loader-2",
+            "url": "ui\/spinners"
+        },
+        {
+            "name": "Tabs & Pills",
+            "icon": "ti-server-2",
+            "url": "ui\/tabs-pills"
+        },
+        {
+            "name": "Toasts",
+            "icon": "ti-box-model",
+            "url": "ui\/toasts"
+        },
+        {
+            "name": "Tooltips & Popovers",
+            "icon": "ti-message-2",
+            "url": "ui\/tooltips-popovers"
+        },
+        {
+            "name": "Typography",
+            "icon": "ti-typography",
+            "url": "ui\/typography"
+        },
+        {
+            "name": "Avatar",
+            "icon": "ti-user-circle",
+            "url": "extended\/ui-avatar"
+        },
+        {
+            "name": "BlockUI",
+            "icon": "ti-window-maximize",
+            "url": "extended\/ui-blockui"
+        },
+        {
+            "name": "Drag & Drop",
+            "icon": "ti-drag-drop",
+            "url": "extended\/ui-drag-and-drop"
+        },
+        {
+            "name": "Media Player",
+            "icon": "ti-music",
+            "url": "extended\/ui-media-player"
+        },
+        {
+            "name": "Perfect Scrollbar",
+            "icon": "ti-arrows-move-vertical",
+            "url": "extended\/ui-perfect-scrollbar"
+        },
+        {
+            "name": "Star Ratings",
+            "icon": "ti-star",
+            "url": "extended\/ui-star-ratings"
+        },
+        {
+            "name": "SweetAlert2",
+            "icon": "ti-alert-triangle",
+            "url": "extended\/ui-sweetalert2"
+        },
+        {
+            "name": "Text Divider",
+            "icon": "ti-separator-horizontal",
+            "url": "extended\/ui-text-divider"
+        },
+        {
+            "name": "Timeline Basic",
+            "icon": "ti-arrows-horizontal",
+            "url": "extended\/ui-timeline-basic"
+        },
+        {
+            "name": "Timeline Fullscreen",
+            "icon": "ti-arrows-horizontal",
+            "url": "extended\/ui-timeline-fullscreen"
+        },
+        {
+            "name": "Tour",
+            "icon": "ti-brand-telegram",
+            "url": "extended\/ui-tour"
+        },
+        {
+            "name": "Treeview",
+            "icon": "ti-git-fork rotate-180",
+            "url": "extended\/ui-treeview"
+        },
+        {
+            "name": "Miscellaneous",
+            "icon": "ti-sitemap",
+            "url": "extended\/ui-misc"
+        },
+        {
+            "name": "Basic Inputs",
+            "icon": "ti-cursor-text",
+            "url": "forms\/basic-inputs"
+        },
+        {
+            "name": "Input groups",
+            "icon": "ti-arrow-autofit-content",
+            "url": "forms\/input-groups"
+        },
+        {
+            "name": "Custom Options",
+            "icon": "ti-circle",
+            "url": "forms\/custom-options"
+        },
+        {
+            "name": "Editors",
+            "icon": "ti-text-resize",
+            "url": "forms\/editors"
+        },
+        {
+            "name": "File Upload",
+            "icon": "ti-file-upload",
+            "url": "forms\/file-upload"
+        },
+        {
+            "name": "Pickers",
+            "icon": "ti-edit-circle",
+            "url": "forms\/pickers"
+        },
+        {
+            "name": "Select & Tags",
+            "icon": "ti-select",
+            "url": "forms\/selects"
+        },
+        {
+            "name": "Sliders",
+            "icon": "ti-adjustments-alt rotate-90",
+            "url": "forms\/sliders"
+        },
+        {
+            "name": "Switches",
+            "icon": "ti-toggle-right",
+            "url": "forms\/switches"
+        },
+        {
+            "name": "Extras",
+            "icon": "ti-circle-plus",
+            "url": "forms\/extras"
+        },
+        {
+            "name": "Vertical Form",
+            "icon": "ti-file-text",
+            "url": "form\/layouts-vertical"
+        },
+        {
+            "name": "Horizontal Form",
+            "icon": "ti-file-text",
+            "url": "form\/layouts-horizontal"
+        },
+        {
+            "name": "Sticky Actions",
+            "icon": "ti-file-text",
+            "url": "form\/layouts-sticky"
+        },
+        {
+            "name": "Numbered Wizard",
+            "icon": "ti-text-wrap-disabled",
+            "url": "form\/wizard-numbered"
+        },
+        {
+            "name": "Icons Wizard",
+            "icon": "ti-text-wrap-disabled",
+            "url": "form\/wizard-icons"
+        },
+        {
+            "name": "Form Validation",
+            "icon": "ti-checkbox",
+            "url": "form\/validation"
+        },
+        {
+            "name": "Tables",
+            "icon": "ti-table",
+            "url": "tables\/basic"
+        },
+        {
+            "name": "Datatable Basic",
+            "icon": "ti-layout-grid",
+            "url": "tables\/datatables-basic"
+        },
+        {
+            "name": "Datatable Advanced",
+            "icon": "ti-layout-grid",
+            "url": "tables\/datatables-advanced"
+        },
+        {
+            "name": "Datatable Extensions",
+            "icon": "ti-layout-grid",
+            "url": "tables\/datatables-extensions"
+        },
+        {
+            "name": "Apex Charts",
+            "icon": "ti-chart-line",
+            "url": "charts\/apex"
+        },
+        {
+            "name": "ChartJS",
+            "icon": "ti-chart-bar",
+            "url": "charts\/chartjs"
+        },
+        {
+            "name": "Leaflet Maps",
+            "icon": "ti-map-pin",
+            "url": "maps\/leaflet"
+        }
+    ],
+    "files": [
+        {
+            "name": "Class Attendance",
+            "subtitle": "By Tommy Shelby",
+            "src": "img\/icons\/misc\/search-xls.png",
+            "meta": "17kb",
+            "url": "javascript:;"
+        },
+        {
+            "name": "Passport Image",
+            "subtitle": "By William Budd",
+            "src": "img\/icons\/misc\/search-jpg.png",
+            "meta": "35kb",
+            "url": "javascript:;"
+        },
+        {
+            "name": "Class Notes",
+            "subtitle": "By Laurel Lance",
+            "src": "img\/icons\/misc\/search-doc.png",
+            "meta": "153kb",
+            "url": "javascript:;"
+        },
+        {
+            "name": "Receipt",
+            "subtitle": "By Donnie Darko",
+            "src": "img\/icons\/misc\/search-jpg.png",
+            "meta": "25kb",
+            "url": "javascript:;"
+        },
+        {
+            "name": "Social Guide",
+            "subtitle": "By Ryan Middleton",
+            "src": "img\/icons\/misc\/search-doc.png",
+            "meta": "39kb",
+            "url": "javascript:;"
+        },
+        {
+            "name": "Expenses",
+            "subtitle": "By Slade Wilson",
+            "src": "img\/icons\/misc\/search-xls.png",
+            "meta": "15kb",
+            "url": "javascript:;"
+        },
+        {
+            "name": "Documentation",
+            "subtitle": "By Walter White",
+            "src": "img\/icons\/misc\/search-doc.png",
+            "meta": "200kb",
+            "url": "javascript:;"
+        },
+        {
+            "name": "Avatar",
+            "subtitle": "By Ross Geller",
+            "src": "img\/icons\/misc\/search-jpg.png",
+            "meta": "100kb",
+            "url": "javascript:;"
+        },
+        {
+            "name": "Data",
+            "subtitle": "By Erik Foreman",
+            "src": "img\/icons\/misc\/search-xls.png",
+            "meta": "5kb",
+            "url": "javascript:;"
+        },
+        {
+            "name": "Gardening Guide",
+            "subtitle": "By Jerry Seinfeld",
+            "src": "img\/icons\/misc\/search-doc.png",
+            "meta": "25kb",
+            "url": "javascript:;"
+        }
+    ],
+    "members": [
+        {
+            "id": 1,
+            "name": "ns3075@naiyan",
+            "subtitle": "ns3075@naiyan",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/1",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 2,
+            "name": "Sahida",
+            "subtitle": "ns3072@shahida",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/2",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 3,
+            "name": "topu ahmed",
+            "subtitle": "topuhome",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/3",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 4,
+            "name": "Jakaria",
+            "subtitle": "ns3051@jakaria",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/4",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 5,
+            "name": "Jaman miah",
+            "subtitle": "ns3061@jaman",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/5",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 6,
+            "name": "Salam",
+            "subtitle": "ns3071@salam",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/6",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 7,
+            "name": "Sornali",
+            "subtitle": "ns3042@sornali",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/7",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 8,
+            "name": "Ahsan vai",
+            "subtitle": "ns3029@ahsan",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/8",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 9,
+            "name": "Jui",
+            "subtitle": "ns3023@jui",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/9",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 10,
+            "name": "Balal mama",
+            "subtitle": "ns3021@balal",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/10",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 11,
+            "name": "Omar",
+            "subtitle": "ns3001@omar",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/11",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 12,
+            "name": "Helal vai",
+            "subtitle": "ns3070@helalvai",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/12",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 13,
+            "name": "Hasan",
+            "subtitle": "ns3019@hasan",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/13",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 14,
+            "name": "Redwan",
+            "subtitle": "ns3056@redwan",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/14",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 15,
+            "name": "Helal",
+            "subtitle": "ns3054@helal",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/15",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 16,
+            "name": "Yamin",
+            "subtitle": "ns3052@yamin",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/16",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 17,
+            "name": "Tawhidul",
+            "subtitle": "ns3060@tawhidul",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/17",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 18,
+            "name": "Husain",
+            "subtitle": "ns3050@husain",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/18",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 19,
+            "name": "Burhan",
+            "subtitle": "ns3063@burhan",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/19",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 20,
+            "name": "Zahid",
+            "subtitle": "ns3047@zahid",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/20",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 21,
+            "name": "Mokul vai",
+            "subtitle": "ns3044@mokul",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/21",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 22,
+            "name": "Mayda",
+            "subtitle": "ns3068@mayda",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/22",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 23,
+            "name": "Nadim",
+            "subtitle": "ns3069@nadim",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/23",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 24,
+            "name": "Hasnat",
+            "subtitle": "ns3041@hasnat",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/24",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 25,
+            "name": "Tajul",
+            "subtitle": "ns3036@tajul",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/25",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 26,
+            "name": "Jalal",
+            "subtitle": "ns3033@jalal",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/26",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 27,
+            "name": "Duyel",
+            "subtitle": "ns3022@duyel",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/27",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 28,
+            "name": "Jubel",
+            "subtitle": "ns3018@jubel",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/28",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 29,
+            "name": "Alauddin",
+            "subtitle": "ns3017@alauddin",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/29",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 30,
+            "name": "Monir",
+            "subtitle": "ns3015@monir",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/30",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 31,
+            "name": "Abdullah Vai",
+            "subtitle": "ns3014@abdullah",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/31",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 32,
+            "name": "Jakaria",
+            "subtitle": "ns3013@jakaria",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/32",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 33,
+            "name": "Jahid",
+            "subtitle": "ns3012@jahid",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/33",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 34,
+            "name": "Saiful vai",
+            "subtitle": "ns3010@saiful",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/34",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 35,
+            "name": "Fahim",
+            "subtitle": "ns3009@fahim",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/35",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 36,
+            "name": "Maruf",
+            "subtitle": "ns3007@maruf",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/36",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 37,
+            "name": "Pritiraj",
+            "subtitle": "ns3006@pritiraj",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/37",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 38,
+            "name": "Hadi vai",
+            "subtitle": "ns3004@hadi",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/38",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 39,
+            "name": "Delwar",
+            "subtitle": "ns3003@delwar",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/39",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 40,
+            "name": "Joni vai",
+            "subtitle": "ns3002@joni",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/40",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 41,
+            "name": "Tomal",
+            "subtitle": "ns3073@tomal",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/41",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 42,
+            "name": "Abu khan",
+            "subtitle": "ns3057@abukhan",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/42",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 43,
+            "name": "Belal vai Bnet",
+            "subtitle": "ns3055@belal",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/43",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 44,
+            "name": "Samad",
+            "subtitle": "ns3058@samad",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/44",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 45,
+            "name": "Jumon",
+            "subtitle": "ns3053@jumon",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/45",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 46,
+            "name": "Suhag",
+            "subtitle": "ns3049@suhag",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/46",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 47,
+            "name": "Yeasmin",
+            "subtitle": "ns3048@yeasmin",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/47",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 48,
+            "name": "Ahnaf",
+            "subtitle": "ns3064@ahnaf",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/48",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 49,
+            "name": "Forhad",
+            "subtitle": "ns3065@forhad",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/49",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 50,
+            "name": "Jabed Mama",
+            "subtitle": "ns3046@jabed",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/50",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 51,
+            "name": "Rasel",
+            "subtitle": "ns3066@rasel",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/51",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 52,
+            "name": "Sadik",
+            "subtitle": "ns3067@sadik",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/52",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 53,
+            "name": "Ali ahmed",
+            "subtitle": "ns3074@aliahmed",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/53",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 54,
+            "name": "Jamil",
+            "subtitle": "ns3043@jamil",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/54",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 55,
+            "name": "Milad",
+            "subtitle": "ns3040@milad",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/55",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 56,
+            "name": "Munna",
+            "subtitle": "ns3037@munna",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/56",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 57,
+            "name": "Sabbaj Vai",
+            "subtitle": "ns3035@sabbaj",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/57",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 58,
+            "name": "Prodip",
+            "subtitle": "ns3034@prodip",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/58",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 59,
+            "name": "Rafi",
+            "subtitle": "ns3031@rafi",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/59",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 60,
+            "name": "Habib",
+            "subtitle": "ns3030@habib",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/60",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 61,
+            "name": "Humayun",
+            "subtitle": "ns3028@humayun",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/61",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 62,
+            "name": "Yunus",
+            "subtitle": "ns3026@yunus",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/62",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 63,
+            "name": "Hasan",
+            "subtitle": "ns3020@hasan",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/63",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 64,
+            "name": "Babu",
+            "subtitle": "ns3011@babu",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/64",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 65,
+            "name": "Masum vai",
+            "subtitle": "ns3008@masum",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/65",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 66,
+            "name": "Sahadoth",
+            "subtitle": "ns3005@sahadoth",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/66",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 67,
+            "name": "Fahad",
+            "subtitle": "ns3059@fahad",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/67",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 68,
+            "name": "Irfan",
+            "subtitle": "ns3062@irfan",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/68",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 69,
+            "name": "Mustak",
+            "subtitle": "ns3045@mustak",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/69",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 70,
+            "name": "Sultan",
+            "subtitle": "ns3039@sultan",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/70",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 71,
+            "name": "Kamal vai",
+            "subtitle": "ns3038@kamal",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/71",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 72,
+            "name": "Kamrul",
+            "subtitle": "ns3032@kamrul",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/72",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 73,
+            "name": "Arafath",
+            "subtitle": "ns3027@arafat",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/73",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 74,
+            "name": "No client",
+            "subtitle": "ns3024@sadek",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/74",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 75,
+            "name": "Sujon",
+            "subtitle": "ns3016@sujon",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/75",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 76,
+            "name": "Topu",
+            "subtitle": "ns3000@topu",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/76",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 77,
+            "name": "Azaz",
+            "subtitle": "ns3025@azaz",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/77",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 78,
+            "name": "topu ahmed",
+            "subtitle": "ns3024@shuvo",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/78",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 79,
+            "name": "Akib",
+            "subtitle": "ns3076@akib",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/79",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 80,
+            "name": "Juber",
+            "subtitle": "ns3077@juber",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/80",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 81,
+            "name": "Mehrun",
+            "subtitle": "ns3002@mehrun",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/81",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 82,
+            "name": "topu",
+            "subtitle": "ns3063@topu",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/82",
+            "manager_id": 2,
+            "customer_for": "franchise"
+        },
+        {
+            "id": 83,
+            "name": "Md. Munirujjaman Moner",
+            "subtitle": "fd",
+            "src": "\/home\/forservice\/Desktop\/Laravel-smart-isp\/public",
+            "url": "user\/customer-user\/83",
+            "manager_id": 1,
+            "customer_for": "app_manager"
+        }
+    ]
+}

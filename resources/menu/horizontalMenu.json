@@ -1,0 +1,242 @@
+{
+  "menu": [
+    {
+      "name": "Managers",
+      "icon": "menu-icon tf-icons ti ti-smart-home",
+      "slug": "managers",
+      "submenu": [
+        {
+          "url": "managers/manager-list",
+          "name": "Manager List",
+          "slug": "managers-manager-list"
+        },
+        {
+          "url": "managers/roles",
+          "name": "Roles",
+          "slug": "managers/roles"
+        },
+        {
+          "url": "managers/log-history",
+          "name": "Activity Log",
+          "slug": "managers/log-history"
+        }
+      ]
+    },
+    {
+      "name": "User",
+      "icon": "menu-icon tf-icons ti ti-layout-sidebar",
+      "slug": "user",
+      "submenu": [
+        {
+          "url": "user/add-user",
+          "name": "Add User",
+          "slug": "user-add-customer"
+        },
+        {
+          "url": "user/view-user",
+          "name": "View User",
+          "slug": "user-view-user"
+        },
+        {
+          "url": "user/pending-user",
+          "name": "Pending User",
+          "slug": "user/pending-user"
+        },
+        {
+          "url": "user/customer-user",
+          "name": "New Registration",
+          "slug": "user/customer-user"
+        },
+        {
+          "url": "user/expire-customer",
+          "name": "Expired User",
+          "slug": "user/expire-customer"
+        },
+        {
+          "name": "MikroTik Online User",
+          "url": "user/mktonline-user",
+          "slug": "user-online-mikrotik_online_user"
+        }
+      ]
+    },
+    {
+      "name": "Mikrotik",
+      "icon": "menu-icon tf-icons ti ti-brand-php",
+      "slug": "mikrotik",
+      "submenu": [
+        {
+          "url": "mikrotik/add-mirotik",
+          "name": "Add Mikrotik",
+          "slug": "mikrotik-add-mikrotik"
+        },
+        {
+          "url": "mikrotik/view-mirotik",
+          "name": "View Mikrotik",
+          "slug": "mikrotik-view-mikrotik"
+        },
+        {
+          "url": "mikrotik/ip-pool",
+          "name": "Mikrotik IP Pool",
+          "slug": "mikrotik-ip-pool"
+        }
+      ]
+    },
+    {
+      "name": "Packages",
+      "icon": "menu-icon tf-icons ti ti-brand-php",
+      "slug": "packages",
+      "submenu": [
+        {
+          "url": "packages/add-package",
+          "name": "Add Package",
+          "slug": "packages-add-package"
+        },
+        {
+          "url": "packages/view-package",
+          "name": "View Package",
+          "slug": "packages-view-package"
+        }
+      ]
+    },
+    {
+      "name": "Network",
+      "icon": "menu-icon tf-icons ti ti-brand-php",
+      "slug": "network",
+      "submenu": [
+        {
+          "url": "network/division",
+          "name": "Divisions",
+          "slug": "network/division"
+        },
+        {
+          "url": "network/district",
+          "name": "Districts",
+          "slug": "network/district"
+        },
+        {
+          "url": "network/upazila",
+          "name": "Upazilas",
+          "slug": "network/upazila"
+        },
+        {
+          "url": "network/add-zone",
+          "name": "Add Zone",
+          "slug": "network-add-zone"
+        },
+        {
+          "url": "network/view-zone",
+          "name": "View Zone",
+          "slug": "network-view-zone"
+        },
+        {
+          "url": "network/add-sub-zone",
+          "name": "Add Sub-Zone",
+          "slug": "network-add-sub-zone"
+        },
+        {
+          "url": "network/view-sub-zone",
+          "name": "View Sub-Zone",
+          "slug": "network-view-sub-zone"
+        },
+        {
+          "url": "network/olt",
+          "name": "OLT",
+          "slug": "network/olt"
+        },
+        {
+          "url": "network/onu",
+          "name": "ONU",
+          "slug": "network/onu"
+        }
+      ]
+    },
+    {
+      "name": "Account",
+      "icon": "menu-icon tf-icons ti ti-brand-php",
+      "slug": "account",
+      "submenu": [
+        {
+          "url": "accounts/category",
+          "name": "Category",
+          "slug": "account-category"
+        },
+        {
+          "url": "accounts/bill-collection",
+          "name": "Bill Collection",
+          "slug": "account-bill-collection"
+        },
+        {
+          "url": "accounts/daily-incomes",
+          "name": "Daily Income",
+          "slug": "account-daily-income"
+        },
+        {
+          "url": "accounts/daily-expense",
+          "name": "Daily Expenses",
+          "slug": "account-daily-expenses"
+        },
+        {
+          "url": "account/summary",
+          "name": "Summary",
+          "slug": "account-summary"
+        }
+      ]
+    },
+    {
+      "name": "Billing",
+      "icon": "menu-icon tf-icons ti ti-brand-php",
+      "slug": "billing",
+      "submenu": [
+        {
+          "url": "billing/invoice",
+          "name": "Invoice",
+          "slug": "invoice.index"
+        },
+        {
+          "url": "billing/receive-invoice",
+          "name": "Received Payments",
+          "slug": "billing-receive-invoice"
+        }
+      ]
+    },
+    {
+      "name": "SMS",
+      "icon": "menu-icon tf-icons ti ti-brand-php",
+      "slug": "sms",
+      "submenu": [
+        {
+          "url": "sms/sms_templates",
+          "name": "SMS Template",
+          "slug": "sms/sms_templates"
+        },
+        {
+          "url": "sms/sms-api",
+          "name": "SMS Api",
+          "slug": "sms/sms-api"
+        },
+        {
+          "url": "sms/send-sms",
+          "name": "Send SMS",
+          "slug": "sms-send-sms"
+        },
+        {
+          "url": "sms/sms-report",
+          "name": "SMS Report",
+          "slug": "sms/sms-report"
+        }
+      ]
+    },
+    {
+      "name": "Settings",
+      "url": "settings",
+      "icon": "menu-icon tf-icons ti ti-brand-php",
+      "slug": "settings.index"
+    },
+    {
+      "name": "BTRC Report",
+      "icon": "menu-icon tf-icons ti ti-brand-php",
+      "url": "report/btrc",
+      "slug": "reprot.btrc"
+    }
+  ]
+}

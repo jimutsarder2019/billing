@@ -1,0 +1,392 @@
+{
+  "menu": [
+    {
+      "url": "",
+      "name": "Dashboard",
+      "icon": "menu-icon bi bi-house-door",
+      "slug": "",
+      "permission": "Dashboard"
+    },
+    {
+      "url": "mini-dashboard",
+      "name": "Mini Dashboard",
+      "icon": "menu-icon bi bi-house-door",
+      "slug": "mini-dashboard",
+      "permission": "Mini Dashboard"
+    },
+    {
+      "name": "Managers",
+      "icon": "menu-icon bi bi-person-lines-fill",
+      "slug": "managers",
+      "permission": "Managers",
+      "submenu": [
+        {
+          "url": "managers/manager-list",
+          "name": "Manager List",
+          "slug": "managers-manager-list",
+          "permission": "Managers"
+        },
+        {
+          "url": "managers-ledger",
+          "name": "Managers Ledger",
+          "slug": "managers-ledger",
+          "permission": "managers-ledger"
+        },
+        {
+          "url": "managers-franchise_panel_balance_invoice",
+          "name": "Franchise Invoice",
+          "slug": "managers-franchise_panel_balance_invoice",
+          "permission": "managers-ledger"
+        },
+        {
+          "url": "managers/roles",
+          "name": "Roles",
+          "slug": "managers/roles",
+          "permission": "Role"
+        },
+        {
+          "url": "managers/log-history",
+          "name": "Activity Log",
+          "slug": "managers/log-history",
+          "permission": "Activity Log All"
+        }
+      ]
+    },
+    {
+      "name": "User",
+      "icon": "menu-icon bi bi-people",
+      "slug": "user",
+      "permission": "View User",
+      "submenu": [
+        {
+          "url": "user/add-user",
+          "name": "Add User",
+          "slug": "user-add-customer",
+          "permission": "Add User"
+        },
+        {
+          "url": "user/view-user",
+          "name": "View User",
+          "slug": "user-view-user",
+          "permission": "View User"
+        },
+        {
+          "url": "user/pending-user",
+          "name": "Pending User",
+          "slug": "user/pending-user",
+          "permission": "Pending User"
+        },
+        {
+          "url": "users/grace-users",
+          "name": "Grace Users",
+          "slug": "users/grace-users",
+          "permission": "Grace User"
+        },
+        {
+          "url": "users/delete-users",
+          "name": "Delete Users",
+          "slug": "user/delete-users",
+          "permission": "Delete Users"
+        },
+        {
+          "url": "user/mikrotik-import-user",
+          "name": "Mikrotik Import User",
+          "slug": "user/mikrotik-import-user",
+          "permission": "Pending User"
+        },
+        {
+          "url": "user/customer-user",
+          "name": "New Registration User",
+          "slug": "user/customer-user",
+          "permission": "New Registration User"
+        },
+        {
+          "url": "user/expire-customer",
+          "name": "Expired User",
+          "slug": "user/expire-customer",
+          "permission": "Expired User"
+        },
+        {
+          "name": "MikroTik Online User",
+          "url": "user/mktonline-user",
+          "slug": "user-online-mikrotik_online_user",
+          "permission": "MikroTik Online User"
+        }
+      ]
+    },
+    {
+      "name": "Mikrotik",
+      "icon": "menu-icon bi bi-hdd",
+      "slug": "mikrotik",
+      "permission": "Mikrotik",
+      "submenu": [
+        {
+          "url": "mikrotik/add-mirotik",
+          "name": "Add Mikrotik",
+          "slug": "mikrotik-add-mikrotik",
+          "permission": "Mikrotik Add"
+        },
+        {
+          "url": "mikrotik/view-mirotik",
+          "name": "View Mikrotik",
+          "slug": "mikrotik-view-mikrotik",
+          "permission": "Mikrotik View"
+        },
+        {
+          "url": "mikrotik/ip-pool",
+          "name": "Mikrotik IP Pool",
+          "slug": "mikrotik-ip-pool",
+          "permission": "Mikrotik IP Pool"
+        }
+      ]
+    },
+    {
+      "name": "Packages",
+      "icon": "menu-icon bi bi-boxes",
+      "slug": "packages",
+      "permission": "Packages",
+      "submenu": [
+        {
+          "url": "packages/add-package",
+          "name": "Add Package",
+          "slug": "Add Package",
+          "permission": "Add Package"
+        },
+        {
+          "url": "packages/view-package",
+          "name": "View Package",
+          "slug": "packages-view-package",
+          "permission": "View Package"
+        }
+      ]
+    },
+    {
+      "name": "Network",
+      "icon": "menu-icon bi bi-reception-3",
+      "slug": "network",
+      "permission": "Network",
+      "submenu": [
+        {
+          "url": "network/division",
+          "name": "Divisions",
+          "slug": "network/division",
+          "permission": "Divisions"
+        },
+        {
+          "url": "network/district",
+          "name": "Districts",
+          "slug": "network/district",
+          "permission": "Districts"
+        },
+        { 
+          "url": "network/thana",
+          "name": "Thana",
+          "slug": "network/thana",
+          "permission": "Thana"
+        },
+        {
+          "url": "network/view-zone",
+          "name": "Zone",
+          "slug": "network-view-zone",
+          "permission": "Zone"
+        },
+        {
+          "url": "network/view-sub-zone",
+          "name": "Sub-Zone",
+          "slug": "network-view-sub-zone",
+          "permission": "Sub-Zone"
+        },
+        {
+          "url": "network/olt",
+          "name": "OLT",
+          "slug": "network/olt",
+          "permission": "OLT"
+        },
+        {
+          "url": "network/onu",
+          "name": "ONU",
+          "slug": "network/onu",
+          "permission": "ONU"
+        }
+      ]
+    },
+    {
+      "name": "Tickets",
+      "icon": "menu-icon bi bi-ticket",
+      "slug": "ticket",
+      "permission": "Ticket",
+      "submenu": [
+        {
+          "url": "ticketcategory",
+          "name": "Ticket Category",
+          "slug": "ticketcategory",
+          "permission": "Account-Category"
+        },
+        {
+          "url": "ticket",
+          "name": "Ticket",
+          "slug": "ticket",
+          "permission": "Account-Category"
+        }
+      ]
+    },
+    {
+      "name": "Account",
+      "icon": "menu-icon bi bi-wallet",
+      "slug": "account",
+      "permission": "Account",
+      "submenu": [
+        {
+          "url": "accounts/category",
+          "name": "Account Category",
+          "slug": "account-category",
+          "permission": "Account-Category"
+        },
+        {
+          "url": "accounts/daily-incomes",
+          "name": "Daily Income",
+          "slug": "account-daily-income",
+          "permission": "Daily-Income"
+        },
+        {
+          "url": "accounts/daily-expense",
+          "name": "Daily Expenses",
+          "slug": "account-daily-expenses",
+          "permission": "Daily-Expenses"
+        },
+        {
+          "url": "account/summary",
+          "name": "Summary",
+          "slug": "account-summary",
+          "permission": "Summary"
+        },
+        {
+          "url": "account/monthly_accounts",
+          "name": "Monthly Report",
+          "slug": "account/monthly_accounts",
+          "permission": "Daily-Expenses"
+        }
+      ]
+    },
+    {
+      "name": "Billing",
+      "icon": "menu-icon bi bi-send",
+      "slug": "billing",
+      "permission": "Billing",
+      "submenu": [
+        {
+          "url": "billing/invoice",
+          "name": "Invoice",
+          "slug": "invoice.index",
+          "permission": "Invoice"
+        },
+        {
+          "url": "billing/receive-invoices",
+          "name": "Received Payments",
+          "slug": "billing-receive-invoice",
+          "permission": "Received Payments"
+        },
+        {
+          "url": "billing/refund-invoices",
+          "name": "Refund Invoice",
+          "slug": "billing-refund-invoice",
+          "permission": "Received Payments"
+        }
+      ]
+    },
+    {
+      "name": "SMS",
+      "icon": "menu-icon bi bi-chat-square",
+      "slug": "sms",
+      "permission": "SMS",
+      "submenu": [
+        {
+          "url": "sms/sms_templates",
+          "name": "SMS Template",
+          "slug": "sms/sms_templates",
+          "permission": "SMS Template"
+        },
+        {
+          "url": "sms/sms-api",
+          "name": "SMS Api",
+          "slug": "sms/sms-api",
+          "permission": "SMS Api Add"
+        },
+        {
+          "url": "sms/send-sms",
+          "name": "Send SMS",
+          "slug": "sms-send-sms",
+          "permission": "SMS Send sms"
+        },
+        {
+          "url": "sms/sms-report",
+          "name": "SMS Report",
+          "slug": "sms/sms-report",
+          "permission": "SMS Report"
+        }
+      ]
+    },
+    {
+      "name": "Settings",
+      "url": "settings",
+      "icon": "menu-icon bi bi-gear",
+      "slug": "settings",
+      "permission": "Settings",
+      "submenu": [
+        {
+          "name": "General Settings",
+          "url": "settings",
+          "icon": "menu-icon bi bi-gear",
+          "slug": "settings.index",
+          "permission": "Settings View"
+        },
+        {
+          "name": "Database Backup",
+          "url": "db-backup",
+          "slug": "db-backup",
+          "permission": "Settings db-backup"
+        }
+      ]
+    },
+    {
+      "name": "Payment Methods",
+      "icon": "menu-icon bi bi-info-circle",
+      "slug": "payment-methods",
+      "permission": "BTRC Report",
+      "submenu": [
+        {
+          "name": "Bkash",
+          "url": "payment-methods/bkash",
+          "slug": "payment-method.bkash",
+          "permission": "BTRC Report"
+        }
+      ]
+    },
+    {
+      "name": "Report",
+      "icon": "menu-icon bi bi-info-circle",
+      "slug": "report",
+      "permission": "BTRC Report",
+      "submenu": [
+        {
+          "name": "BTRC Report",
+          "url": "report/btrc",
+          "slug": "reprot.btrc",
+          "permission": "BTRC Report"
+        },
+        {
+          "name": "Payment Invoice",
+          "url": "report/payment-invoice",
+          "slug": "reprot.payment-invoice",
+          "permission": "BTRC Report"
+        },
+        {
+          "name": "Expenses",
+          "url": "report/expense",
+          "slug": "reprot.expense_report",
+          "permission": "BTRC Report"
+        }
+      ]
+    }
+  ]
+}
