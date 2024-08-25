@@ -7,11 +7,11 @@ $title = (isset($data) ? 'Edit ' : 'Add ') .  $route;
 @if(isset($data)) @php $form_action = route("$route.update", $data->id); @endphp @else @php $form_action = route("$route.store"); @endphp @endif
 <div class="card">
     <div class="card-body">
-        <div class="text-center mb-1">
+        <div class="mb-1">
             <h3 class="mb-2 text-capitalize">{{$title}}</h3>
         </div>
         <div class="row">
-            <div class="col-sm-12 col-md-8 m-auto">
+            <div class="col-sm-12 col-md-12 m-auto">
                 <form action="{{$form_action}}" class="row g-3" method="POST">
                     @if(isset($data))
                     @method('put')

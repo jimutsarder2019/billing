@@ -8,13 +8,13 @@
 </style>
 <div class="card">
   <div class="card-body">
-    <h4 class="card-title my-3">Dashboard
+    <h4 class="card-title my-3">DASHBOARD
     </h4>
     <div class="row g-4 mb-4">
       @if(auth()->user()->hasRole(SUPER_ADMIN_ROLE))
       <div class="col-sm-6 col-xl-3">
         <div class="card">
-          <div class="card-body">
+          <div class="card-body card-body-2">
             <div class="d-flex align-items-start justify-content-between">
               <div class="content-left">
                 <div class="d-flex align-items-center my-1">
@@ -34,7 +34,7 @@
       </div>
       <div class="col-sm-6 col-xl-3">
         <div class="card">
-          <div class="card-body">
+          <div class="card-body card-body-2">
             <div class="d-flex align-items-start justify-content-between">
               <div class="content-left">
 			    <span class="badge bg-label-success p-2">
@@ -52,7 +52,7 @@
       @if(!auth()->user()->hasRole(SUPER_ADMIN_ROLE))
       <div class="col-sm-6 col-xl-3">
         <div class="card">
-          <div class="card-body">
+          <div class="card-body card-body-2">
             <div class="d-flex align-items-start justify-content-between">
               <div class="content-left">
                 <span class="badge bg-label-success p-2">
@@ -70,7 +70,7 @@
       @endif
       <div class="col-sm-6 col-xl-3">
         <div class="card">
-          <div class="card-body">
+          <div class="card-body card-body-2">
             <div class="d-flex align-items-start justify-content-between">
               <div class="content-left">
                 <span class="badge bg-label-danger p-2">
@@ -92,7 +92,7 @@
       @if(auth()->user()->hasRole(SUPER_ADMIN_ROLE))
       <div class="col-sm-6 col-xl-3">
         <div class="card">
-          <div class="card-body">
+          <div class="card-body card-body-2">
             <div class="d-flex align-items-start justify-content-between">
               <div class="content-left">
                 <span class="badge bg-label-success p-2">
@@ -110,7 +110,7 @@
       @endif
       <div class="col-sm-6 col-xl-3">
         <div class="card">
-          <div class="card-body">
+          <div class="card-body card-body-2">
             <div class="d-flex align-items-start justify-content-between">
               <div class="content-left">
                 <span class="badge bg-label-success p-2">
@@ -150,7 +150,7 @@
       @if(auth()->user()->hasRole(SUPER_ADMIN_ROLE))
       <div class="col-sm-6 col-xl-3">
         <div class="card">
-          <div class="card-body">
+          <div class="card-body card-body-2">
             <div class="d-flex align-items-start justify-content-between">
               <div class="content-left">
                 <span class="badge bg-label-success p-2">
@@ -174,7 +174,7 @@
       </div>
       <div class="col-sm-6 col-xl-3">
         <div class="card">
-          <div class="card-body">
+          <div class="card-body card-body-2">
             <div class="d-flex align-items-start justify-content-between">
               <div class="content-left">
                 <span class="badge bg-label-success p-2">
@@ -205,7 +205,7 @@
       @if(!auth()->user()->hasRole(SUPER_ADMIN_ROLE))
       <div class="col-sm-6 col-xl-3">
         <div class="card">
-          <div class="card-body">
+          <div class="card-body card-body-2">
             <div class="d-flex align-items-start justify-content-between">
               <div class="content-left">
                 <span>Transferred Amount</span>
@@ -219,7 +219,7 @@
       </div>
       <div class="col-sm-6 col-xl-3">
         <div class="card">
-          <div class="card-body">
+          <div class="card-body card-body-2">
             <div class="d-flex align-items-start justify-content-between">
               <div class="content-left">
                 <span>Wallet</span>
@@ -235,7 +235,7 @@
       @if(auth()->user()->hasRole(SUPER_ADMIN_ROLE))
       <div class="col-sm-6 col-xl-3">
         <div class="card">
-          <div class="card-body">
+          <div class="card-body card-body-2">
             <div class="d-flex align-items-start justify-content-between">
               <div class="content-left">
 			    <span class="badge bg-label-info p-2">
@@ -255,7 +255,7 @@
 
       <div class="col-sm-6 col-xl-3">
         <div class="card">
-          <div class="card-body">
+          <div class="card-body card-body-2">
             <div class="d-flex align-items-start justify-content-between">
               <div class="content-left">
                 <span class="badge bg-label-primary p-2">

@@ -14,7 +14,7 @@
 <!-- Basic Layout -->
 <div class="card mb-4">
     <div class="card-body">
-        <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">User/</span> Add User</h4>
+        <h4 class="fw-bold py-3 mb-4">Add User</h4>
         <form id="my_customer_form" action="{{route('user-store-customer')}}" onsubmit="return disableButton()" method="POST">
             @csrf
             <div class="row">

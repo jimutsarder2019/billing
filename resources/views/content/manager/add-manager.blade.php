@@ -2,10 +2,10 @@
 @section('title','Add Manager')
 @section('content')
 <div class="row">
-    <div class="col-sm-12 col-md-8 m-auto">
+    <div class="col-sm-12 col-md-12 m-auto">
         <div class="card">
             <div class="card-body">
-                <div class="text-center mb-4">
+                <div class="mb-4">
                     <h3 class="mb-2">Add Manager</h3>
                 </div>
                 <form action="{{route('managers-store-manager')}}" class="row g-3" method="POST">
