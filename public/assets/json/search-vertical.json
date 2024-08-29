@@ -245,44 +245,7 @@
             "name": "user",
             "subtitle": "user@gmail.com",
             "url": "manager-profile\/1"
-        },
-        {
-            "id": 2,
-            "name": "account zubairIT",
-            "subtitle": "account@zubairit.com",
-            "url": "manager-profile\/2"
-        },
-        {
-            "id": 3,
-            "name": "reseller",
-            "subtitle": "reseller@zubairit.com",
-            "url": "manager-profile\/3"
         }
     ],
-    "members": [
-        {
-            "id": 1,
-            "name": "kingnayeem | 8801708169671",
-            "subtitle": "King Nayeem",
-            "url": "http:\/\/127.0.0.1:8000\/user\/customer-user\/1",
-            "manager_id": 1,
-            "customer_for": "app_manager"
-        },
-        {
-            "id": 7,
-            "name": "expirecheck | 8811223344556",
-            "subtitle": "expirecheck",
-            "url": "http:\/\/127.0.0.1:8000\/user\/customer-user\/7",
-            "manager_id": 1,
-            "customer_for": "app_manager"
-        },
-        {
-            "id": 8,
-            "name": "test1 | 8801711667912",
-            "subtitle": "MD ZUBAIR ISLAM",
-            "url": "http:\/\/127.0.0.1:8000\/user\/customer-user\/8",
-            "manager_id": 1,
-            "customer_for": "app_manager"
-        }
-    ]
+    "members": []
 }
