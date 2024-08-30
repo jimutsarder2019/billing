@@ -31,7 +31,7 @@ class LoginController extends Controller
             $remember = ($request->has('remember')) ? true : false;
             if (Auth::guard('web')->attempt($credentials, $remember)) {
                 // $request->session()->regenerate();
-                $this->searchableData();
+                //$this->searchableData();
                 return redirect('/');
             }
             return back()->withErrors([
