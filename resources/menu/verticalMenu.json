@@ -8,13 +8,6 @@
       "permission": "Dashboard"
     },
     {
-      "url": "mini-dashboard",
-      "name": "Mini Dashboard",
-      "icon": "menu-icon bi bi-house-door",
-      "slug": "mini-dashboard",
-      "permission": "Mini Dashboard"
-    },
-    {
       "name": "Managers",
       "icon": "menu-icon bi bi-person-lines-fill",
       "slug": "managers",
