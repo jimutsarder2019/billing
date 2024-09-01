@@ -1,7 +1,7 @@
 @extends('layouts/layoutMaster')
 @section('title') {{$data->name}} @endsection
 @section('content')
-<h4 class="fw-bold py-3  card card-body">
+<h4 style="display:none" class="fw-bold py-3  card card-body">
   <span class="text-muted fw-light">User / View / {{$data->name}}</span>
 </h4>
 <div class="row">

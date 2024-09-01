@@ -6,15 +6,16 @@
     font-size: 40px;
   }
 </style>
-<div class="card">
-  <div class="card-body">
+
+<div class="card mb-3">
+<div class="card-body">
             <div class="row g-4 mb-4">
                 <div class="col-sm-12 col-md-12">
                     <form action="{{ route('dashboard.index') }}" method="get" class="">
                         <div class="row">
-						    <div class="col-3" style="font-weight:600">
-							    Quick Access
-							</div>
+						    <h4 class="card-title my-3">
+							    QUICK ACCESS
+							</h4>
                             <div class="col-6">
                                 <select name="username" id="" class="select2 form-select"
                                     onchange="this.form.submit()">
@@ -151,8 +152,8 @@
         @endif
         </div>
         </div>
-
-
+</div>
+<div class="card">
   <div class="card-body">
     <h4 class="card-title my-3">DASHBOARD
     </h4>
