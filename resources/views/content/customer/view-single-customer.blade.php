@@ -27,7 +27,7 @@
     </style>
 @endsection
 @section('content')
-    <div class="card mb-3 px-2 py-2">
+    <div style="display:none;" class="card mb-3 px-2 py-2">
         <h4 class="fw-bold mb-0">
             <span class="text-muted fw-light">User / View / {{ $data->full_name }}</span>
         </h4>

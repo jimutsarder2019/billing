@@ -2,6 +2,10 @@
 /*
 * Pages Mixins
 */
+.app-brand-logo.demo{
+	width: 100%;
+    height: auto;
+}
 .table>tbody>tr:nth-of-type(odd) {
     --bs-table-accent-bg: rgba(0,0,0,0.05);
     color: #000000;

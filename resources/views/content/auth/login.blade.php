@@ -37,13 +37,13 @@ $customizerHidden = 'customizer-hide';
                     <div class="app-brand justify-content-center mb-4 mt-2">
                         <a href="{{url('/')}}" class="app-brand-link gap-2">
                             <span class="app-brand-logo demo">
-                                <img src="{{asset(App\Models\AdminSetting::where('slug','site_logo')->first() ? asset(App\Models\AdminSetting::where('slug','site_logo')->first()->value) :'default/logo.png')}}" alt="logo">
+                                <img src="{{asset(App\Models\AdminSetting::where('slug','site_logo')->first() ? asset(App\Models\AdminSetting::where('slug','site_logo')->first()->value) :'default/isp.jpg')}}" alt="logo">
                             </span>
-                            <span class="app-brand-text demo text-body fw-bold ms-1">{{ App\Models\AdminSetting::where('slug','site_name')->first() ? App\Models\AdminSetting::where('slug','site_name')->first()->value : config('variables.templateName')}}</span>
+                            <span style="display:none" class="app-brand-text demo text-body fw-bold ms-1">{{ App\Models\AdminSetting::where('slug','site_name')->first() ? App\Models\AdminSetting::where('slug','site_name')->first()->value : config('variables.templateName')}}</span>
                         </a>
                     </div>
                     <!-- /Logo -->
-                    <h4 class="mb-1 pt-2 login">Login</h4>
+                    <h4 class="mb-1 pt-2 login" style="text-align:center">Login</h4>
                     <h4 class="mb-1 pt-2 d-none">Welcome to {{ App\Models\AdminSetting::where('slug','site_name')->first() ? App\Models\AdminSetting::where('slug','site_name')->first()->value : config('variables.templateName')}}! 👋</h4>
                     <p class="mb-4 d-none">Please sign-in to your account and access the service</p>
 

@@ -16,7 +16,7 @@
 						    <h4 class="card-title my-3">
 							    QUICK ACCESS
 							</h4>
-                            <div class="col-6">
+                            <div class="col-10">
                                 <select name="username" id="" class="select2 form-select"
                                     onchange="this.form.submit()">
                                     <option value="">----Select-----</option>
@@ -30,7 +30,7 @@
                                     @endforeach
                                 </select>
                             </div>
-                            <div class="col-3">
+                            <div class="col-2">
                                 <!-- <input type="text" class="form-control" placeholder="Search username" value="{{ request('username') }}" name="username" aria-label="Recipient's username" aria-describedby="button-addon2"> -->
                                 <div class="d-flex">
                                     <!-- <button class="btn btn-outline-primary" type="submit" id="button-addon2">Search</button> -->
