@@ -11,6 +11,7 @@ use App\Models\Package;
 use App\Models\Mikrotik;
 use App\Models\PppUser;
 use App\Models\Customer as CustomerModel;
+use App\Models\Manager as ManagerModel;
 use App\Models\CustomerBalanceHistory;
 use App\Models\CustomerEditHistory;
 use App\Models\CustomerPackageChangeHistory;
@@ -26,6 +27,7 @@ use Carbon\Carbon;
 use Exception;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Hash;
 
 class Customer extends Controller
 {
@@ -97,6 +99,18 @@ class Customer extends Controller
         $data->manager_id    = auth()->user()->id;
         $data->additional_phone   = json_encode($request->additional_phone);
         $data->save();
+		if($data->save()){
+			$manager = new ManagerModel();
+			$manager->type = 'user';
+			$manager->name = $request->name;
+			$manager->email = $request->email;
+			$manager->password = Hash::make($request->password);
+			$manager->phone = $request->phone;
+			$manager->address = $request->address;
+			
+			$manager->save();
+		}
+		
 
         if ($request->note) {
             CustomerEditHistory::create([

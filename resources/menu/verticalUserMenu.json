@@ -1,0 +1,53 @@
+{
+  "menu": [
+    {
+      "url": "user-dashboard",
+      "name": "Dashboard",
+      "icon": "menu-icon bi bi-house-door",
+      "slug": "user-dashboard",
+      "permission": "Dashboard"
+    },
+	{
+      "url": "user-change",
+      "name": "Edit Profile",
+      "icon": "menu-icon bi bi-house-door",
+      "slug": "user-change",
+      "permission": "Dashboard"
+    },
+	{
+        "url": "user-invoice",
+		"icon": "menu-icon bi bi-send",
+        "name": "Invoices",
+        "slug": "user-invoice",
+        "permission": "Invoice"
+    },
+	{
+        "url": "user-package",
+        "name": "Package History",
+		"icon": "menu-icon bi bi-boxes",
+        "slug": "user-package",
+        "permission": "View Package"
+    },
+	{
+      "url": "user-change-password",
+      "name": "Change Password",
+      "icon": "menu-icon bi bi-house-door",
+      "slug": "user-change-password",
+      "permission": "Dashboard"
+    },
+	{
+        "url": "user-ticket",
+        "name": "Grace & Ticket",
+		"icon": "menu-icon bi bi-ticket",
+        "slug": "user-ticket",
+        "permission": "Ticket"
+    },
+	{
+      "url": "user-notes",
+      "name": "Message (Notes)",
+      "icon": "menu-icon bi bi-house-door",
+      "slug": "user-notes",
+      "permission": "Dashboard"
+    }
+  ]
+}

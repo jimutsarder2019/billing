@@ -48,15 +48,7 @@ class DashboardController extends Controller
                     }
                 }
             }
-			
-			
-			
-			
-			
-			
-			
-			
-			
+
 			if (auth()->user()->type == 'app_manager') {
                 $today = Carbon::now()->format('d/m/Y H:i a');
                 $today_expiring_customers = Customer::where(['status' => 'active'])->where('expire_date', '<=', $today)->get()->count();
@@ -75,6 +67,8 @@ class DashboardController extends Controller
 					'monthly_report' => $monthly_report,
 				]);
 			
+			}elseif (auth()->user()->type == 'user') {
+			    return redirect()->route('user-dashboard');
 			} elseif (auth()->user()->type == 'franchise') {
                 return view('content.dashboard.frinchise-dashboard', compact('monthly_report'));
             }

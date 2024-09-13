@@ -32,7 +32,11 @@ class LoginController extends Controller
             if (Auth::guard('web')->attempt($credentials, $remember)) {
                 // $request->session()->regenerate();
                 //$this->searchableData();
-                return redirect('/');
+				if(auth()->user()->type == 'user'){
+                    return redirect('/user-dashboard');
+				}else{
+					return redirect('/');
+				}
             }
             return back()->withErrors([
                 'email' => 'The provided credentials do not match our records.',

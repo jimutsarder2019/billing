@@ -51,6 +51,9 @@ Route::get('user/pending-user', $controller_path . '\customer\Customer@pendingCu
 Route::post('user/approve-user/{id}', $controller_path . '\customer\Customer@approveCustomer')->name('user-approve-customer');
 Route::get('user/edit-user/{id}', $controller_path . '\customer\Customer@editCustomer')->name('user-edit-customer');
 Route::put('user/update-user/{id}', $controller_path . '\customer\Customer@updateCustomer')->name('user-update-customer');
+
+Route::put('user-change/{id}', $controller_path . '\manager\ManagerUser@userChangeProfile')->name('user-change-profile');
+
 Route::get('user/edit-mikrotik-user/{id}', $controller_path . '\customer\Customer@editMikrotikCustomer')->name('user-edit-mikrotik-customer');
 Route::post('user/store-mikrotik-user', $controller_path . '\customer\Customer@storeMikrotikCustomer')->name('user-store-mikrotik-customer');
 Route::get('user/view-user/disconnect-expired-user', $controller_path . '\customer\Customer@send_sms_before_customer_expire')->name('user-disconnect-expired-customer');
