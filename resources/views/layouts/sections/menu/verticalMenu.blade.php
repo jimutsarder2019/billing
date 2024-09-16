@@ -5,6 +5,7 @@
 	}else{
 		$menuGenerateData = $menuData[0];
 	}
+	print_r($menuGenerateData);
 	print auth()->user()->type;
 	die;
 @endphp
