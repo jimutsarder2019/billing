@@ -29,13 +29,6 @@
         "permission": "View Package"
     },
 	{
-      "url": "user-change-password",
-      "name": "Change Password",
-      "icon": "menu-icon bi bi-house-door",
-      "slug": "user-change-password",
-      "permission": "Dashboard"
-    },
-	{
         "url": "user-ticket",
         "name": "Grace & Ticket",
 		"icon": "menu-icon bi bi-ticket",

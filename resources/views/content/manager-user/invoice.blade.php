@@ -42,7 +42,7 @@
                     <table class="table border-top">
                         <thead>
                             <tr>
-                                <th><i class="fa fa-cogs"></i></th>
+                                <th style="display:none"><i class="fa fa-cogs"></i></th>
                                 <th>ID</th>
                                 <th>invoice NO</th>
                                 <th>amount</th>
@@ -64,7 +64,7 @@
                             ?>
                             @foreach ($invoices as $inv_item)
                                 <tr>
-                                    <td>
+                                    <td style="display:none">
                                         <div class="dropdown">
                                             <button type="button" class="btn p-0 dropdown-toggle hide-arrow"
                                                 data-bs-toggle="dropdown"><i class="ti ti-dots-vertical"></i></button>
