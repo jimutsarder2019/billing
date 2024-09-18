@@ -130,7 +130,7 @@
                                 <th class="bg-lighten w-40 border ps-2"><small>Password</small></th>
                                 <th class="border ps-2"><small>{{ $data->password }}</small></th>
                             </tr>
-                            <tr>
+                            <tr style="display:none">
                                 <th class="bg-lighten w-40 border ps-2"><small>Mikrotik:</small></th>
                                 <th class="border ps-2">
                                     <small>{{ isset($data->mikrotik) ? $data->mikrotik->identity : '' }} |
@@ -230,7 +230,7 @@
                                 <th class="bg-lighten w-40 border ps-2"><small>Manager</small></th>
                                 <th class="border ps-2"><small>{{ $data->manager->name }}</small></th>
                             </tr>
-                            <tr>
+                            <tr style="display:none">
                                 <th class="bg-lighten w-40 border ps-2"><small>Disabled In Mikrotik</small></th>
                                 <th class="border ps-2">
                                     <small>{{ $data->mikrotik_disabled == 0 ? 'False' : 'True' }}</small>
