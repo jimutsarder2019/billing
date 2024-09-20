@@ -115,6 +115,7 @@ Route::get('rc', function () {
 Route::get('/login', [LoginController::class, 'index'])->name('login');
 Route::post('/login', [LoginController::class, 'authenticate'])->name('login.post');
 Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
+Route::get('/log-out', [LoginController::class, 'logout'])->name('logout');
 
 Route::group(['middleware' => 'auth'], function () {
     require __DIR__ . '/theme.php';
@@ -230,6 +231,7 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('user-invoice', [ManagerUser::class, 'userInvoice'])->name('userInvoice');
     Route::get('user-package', [ManagerUser::class, 'userPackage'])->name('userPackage');
     Route::get('user-ticket', [ManagerUser::class, 'userTicket'])->name('userTicket');
+    Route::get('user-ticket-history', [ManagerUser::class, 'userTicketHistory'])->name('userTicketHistory');
     Route::put('manager-change-password/{id}', [Manager::class, 'managerChangePassword'])->name('managerChangePassword');
     Route::put('manager-user-change-password/{id}', [ManagerUser::class, 'managerUserChangePassword'])->name('managerUserChangePassword');
     Route::put('update_profile/{id}', [Manager::class, 'update_profile'])->name('update_profile');

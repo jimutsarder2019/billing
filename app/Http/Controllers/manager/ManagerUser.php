@@ -343,4 +343,43 @@ class ManagerUser extends Controller
             return back();
         }
     }
+	
+	public function userTicketHistory()
+    {
+        try {
+			$model = new Customer();
+			$mid = auth()->user()->id;
+			$Manager = ManagerModel::find($mid);
+			$id = $Manager->user_id;
+            $data =  $model->with('zone', 'sub_zone', 'package', 'mikrotik', 'connection_info', 'invoice', 'packageHistory', 'packageHistory.package')->find($id);
+			try {
+                $connection = new ConnectionService($data->mikrotik->host, $data->mikrotik->username, $data->mikrotik->password, $data->mikrotik->port);
+                $res_query = $connection->check_milrotiok_user_status($data->username);
+                if (is_string($res_query)) return error_message($res_query);
+                $status = $res_query['status'];
+            } catch (\Throwable $th) {
+                $status = null;
+            }
+            $mikrotik_id = $data->mikrotik->id;
+            $mkt_data = [];
+            if (isset($res_query['query']) && is_array($res_query['query'])) {
+                foreach ($res_query['query'] as $key => $value) {
+                    $mkt_data['caller-id'] = $value['caller-id'] ?? '';
+                    $mkt_data['last-logged-out'] = $value['last-logged-out'] ?? '';
+                    $mkt_data['uptime'] = $value['uptime'] ?? '';
+                    $mkt_data['address'] = $value['address'] ?? '';
+                }
+            }
+            $mkt_data = new Collection($mkt_data);
+            if (isset($mkt_data['caller-id'])) {
+                $data->mac_address = $mkt_data['caller-id'];
+                $data->save();
+            }
+            return view('content.manager-user.ticket-history', compact('data', 'mkt_data',));
+        } catch (\Throwable $th) {
+            dd($th);
+            notify()->warning($th->getMessage());
+            return back();
+        }
+    }
 }

@@ -29,8 +29,15 @@
         "permission": "View Package"
     },
 	{
+        "url": "user-ticket-history",
+        "name": "Grace History",
+		"icon": "menu-icon bi bi-ticket",
+        "slug": "user-ticket-history",
+        "permission": "Ticket"
+    },
+	{
         "url": "user-ticket",
-        "name": "Grace & Ticket",
+        "name": "Grace Ticket",
 		"icon": "menu-icon bi bi-ticket",
         "slug": "user-ticket",
         "permission": "Ticket"
@@ -40,6 +47,13 @@
       "name": "Message (Notes)",
       "icon": "menu-icon bi bi-house-door",
       "slug": "user-notes",
+      "permission": "Dashboard"
+    },
+	{
+      "url": "log-out",
+      "name": "Logout",
+      "icon": "menu-icon bi bi-house-door",
+      "slug": "log-out",
       "permission": "Dashboard"
     }
   ]
