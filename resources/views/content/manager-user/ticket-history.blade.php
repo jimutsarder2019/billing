@@ -34,55 +34,31 @@
     </div>
     <div class="tab-content p-1" id="myTabContent">
             @if (auth()->user()->type == 'user')
-                    <div class="ps-3 mt-3">
-                        <div class="card-header d-flex justify-content-between">
-                            <h5 class="card-title m-0 me-2 pt-1 mb-2">Tickets</h5>
-                            <div class="dropdown">
-                                <?php $tickets = App\Models\Ticket::where('customer_id', $data->id)->paginate(10); ?>
-                                <div data-bs-toggle="tooltip" data-bs-title="Total Tickets" id="item_total"
-                                    class="badge bg-primary">{{ $tickets->total() }}</div>
-                                <div data-bs-toggle="tooltip" data-bs-title="Tickets Pending" id="item_pending"
-                                    class="badge bg-warning">
-                                    {{ App\Models\Ticket::where(['customer_id' => $data->id, 'status' => 'pending'])->count() }}
-                                </div>
-                                <div data-bs-toggle="tooltip" data-bs-title="Processing Tickets" id="item_processing"
-                                    class="badge bg-info">
-                                    {{ App\Models\Ticket::where(['customer_id' => $data->id, 'status' => 'processing'])->count() }}
-                                </div>
-                                <div data-bs-toggle="tooltip" data-bs-title="Total Completed" id="item_success"
-                                    class="badge bg-success">
-                                    {{ App\Models\Ticket::where(['customer_id' => $data->id, 'status' => 'completed'])->count() }}
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body pb-0">
-                            <div class="table-responsive mb-3">
-                                <table class="table datatable-invoice">
-                                    <thead>
-                                        <tr>
-                                            <th>ticket No</th>
-                                            <th>Created Date</th>
-                                            <th>Solved Date</th>
-                                            <th>Status</th>
-                                            <th>Note</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        @foreach ($tickets as $index => $item)
-                                            <tr>
-                                                <td>{{ $item->ticket_no }}</td>
-                                                <td>{{ $item->created_at->format('d-m-y h:m a') }}</td>
-                                                <td>{{ $item->updated_at->format('d-m-y h:m a') }}</td>
-                                                <td>{{ $item->status }}</td>
-                                                <td><a href='{{ route('ticket.show', $item->id) }}'><i
-                                                            class="bi bi-eye"></i></a></td>
-                                            </tr>
-                                        @endforeach
-                                    </tbody>
-                                </table>
-                                <div class="ml-4 data_table_pagination">{{ $tickets->links() }}</div>
-                            </div>
-                        </div>
+                <div class="tab-pane show active" id="grace-tab-pane" role="tabpanel" aria-labelledby="grace-tab" tabindex="0">
+                    <h5 class="pl-3 mt-2">Grace History</h5>
+                    <div class="table-responsive mb-3">
+                        <table class="table datatable-invoice">
+                            <thead>
+                                <tr>
+                                    <th>SL</th>
+                                    <th>Actual Expire Date</th>
+                                    <th>Grace Allowed (Days)</th>
+                                    <th>Expire Date (After Grace)</th>
+                                    <th>Manager</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (App\Models\CustomerGraceHistorys::with('manager')->where('customer_id', $data->id)->latest()->get() as $index => $item)
+                                    <tr>
+                                        <td>{{ $index + 1 }}</td>
+                                        <td>{{ $item->grace_before_expire_date }}</td>
+                                        <td>{{ $item->grace }} Days</td>
+                                        <td>{{ $item->customer_new_expire_date }}</td>
+                                        <td>{{ $item->manager->name }}</td>
+                                    </tr>
+                                @endforeach
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             @endif
