@@ -319,6 +319,13 @@
         }
       ]
     },
+	{
+      "url": "manager-details",
+      "name": "My Profile",
+      "icon": "menu-icon bi bi-people",
+      "slug": "manager-details",
+      "permission": "Dashboard"
+    },
     {
       "name": "Settings",
       "url": "settings",
