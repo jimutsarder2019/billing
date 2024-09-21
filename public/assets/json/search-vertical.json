@@ -257,6 +257,18 @@
             "name": "reseller",
             "subtitle": "reseller@zubairit.com",
             "url": "manager-profile\/3"
+        },
+        {
+            "id": 4,
+            "name": "kiron",
+            "subtitle": "kiron@gmail.com",
+            "url": "manager-profile\/4"
+        },
+        {
+            "id": 5,
+            "name": "hasan mahmud",
+            "subtitle": "hasan@gmail.com",
+            "url": "manager-profile\/5"
         }
     ],
     "members": [
@@ -283,6 +295,22 @@
             "url": "http:\/\/127.0.0.1:8000\/user\/customer-user\/8",
             "manager_id": 1,
             "customer_for": "app_manager"
+        },
+        {
+            "id": 9,
+            "name": " | 01737294279",
+            "subtitle": "rd rd",
+            "url": "http:\/\/127.0.0.1:8000\/user\/customer-user\/9",
+            "manager_id": 1,
+            "customer_for": "app_manager"
+        },
+        {
+            "id": 14,
+            "name": "hasan | 8898473484483",
+            "subtitle": "hasan mahmud",
+            "url": "http:\/\/127.0.0.1:8000\/user\/customer-user\/14",
+            "manager_id": 5,
+            "customer_for": "user"
         }
     ]
 }
