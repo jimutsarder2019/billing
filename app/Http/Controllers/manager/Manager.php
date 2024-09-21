@@ -528,6 +528,34 @@ class Manager extends Controller
             return back();
         }
     }
+	
+	public function managerDetails()
+    {
+        if (!auth()->user()->can('Managers View Profile')) return error_message('You Have No Access Permission', 'Unauthorize permissons', 403);
+        if(auth()->user()->id){
+            $id = auth()->user()->id;		
+			try {
+				$data = ManagerModel::with(
+					'balanceSendHistory',
+					'balanceSendHistory.receiver',
+					'balanceReciveHistory',
+					'balanceReciveHistory.sender',
+					'mikrotik',
+					'assignPackage',
+					'assignPackage.package',
+					'managerBalanceHistory',
+					'invoices',
+					'assingZones'
+				)->find($id);
+				return view('content.manager.manager-profile', compact('data'));
+			} catch (\Throwable $th) {
+				//throw $th;
+				notify()->warning($th->getMessage());
+				return back();
+			}
+        }
+    }
+	
     // ====== manager Ladger list====== 
     public function managers_ladger(Request $request)
     {

@@ -224,6 +224,7 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('rejacte-managers-balance-transfer/{id}', [Manager::class, 'rejacte_managers_balance_transfer'])->name('rejacte_managers_balance_transfer');
     Route::get('seen-transfer-balance-notification/{id}', [Manager::class, 'seen_transfer_balance_notification'])->name('seen_transfer_balance_notification');
     Route::get('manager-profile/{id}', [Manager::class, 'managerProfile'])->name('managerProfile');
+    Route::get('manager-details', [Manager::class, 'managerDetails'])->name('managerDetails');
     Route::get('user-change-password', [ManagerUser::class, 'userChangePassword'])->name('userChangePassword');
     Route::get('user-change', [ManagerUser::class, 'userChange'])->name('userChange');
     Route::get('user-dashboard', [ManagerUser::class, 'userDashboard'])->name('userDashboard');

@@ -380,6 +380,13 @@
           "permission": "BTRC Report"
         }
       ]
+    },
+	{
+      "url": "log-out",
+      "name": "Logout",
+      "icon": "menu-icon bi bi-house-door",
+      "slug": "log-out",
+      "permission": "Dashboard"
     }
   ]
 }
