@@ -47,7 +47,11 @@
 
 use App\Models\AdminSetting;
 
-$admindata = new AdminSetting()
+$admindata = new AdminSetting();
+$amount_in_words = '';
+if(isset($data->amount)){
+   $amount_in_words = inwords($data->amount);
+}
 ?>
 @section('content')
 <div class="invoice-print p-5">
@@ -87,7 +91,7 @@ $admindata = new AdminSetting()
       <p class="mb-0">{{$data->customer ? $data->customer->email : $data->manager->email}}</p>
     </div>
     <div class="col-sm-7 w-60">
-      <h6>Bill To:</h6>
+      <h6 style="display:none">Bill To:</h6>
       <table>
         <tbody>
           <tr>
@@ -154,9 +158,13 @@ $admindata = new AdminSetting()
   </div>
 
   <div class="row">
-    <div class="col-12">
-      <span class="fw-bold">Note:</span>
-      <span>Billing System Made By <a href="www.smartisp.net" target="_blank" rel="noopener noreferrer">www.smartisp.net</a></span>
+    <div class="col-8">
+      <span class="fw-bold">Amount in words:</span>
+      <span>{{ $amount_in_words }}</span>
+    </div>
+	<div class="col-4">
+      <span class="fw-bold">Invoice issued:</span>
+      <span>{{auth()->user()->name}}</span>
     </div>
   </div>
 </div>
