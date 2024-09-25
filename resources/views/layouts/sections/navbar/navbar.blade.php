@@ -206,7 +206,7 @@
         <!--👉 User -->
         <li class="nav-item navbar-dropdown dropdown-user dropdown">
             <a style="display:flex" class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
-                <div class="avatar avatar-online">
+                <div class="avatar avatar-online" style="margin-right:1rem">
                     <img src="{{ Auth::user()->profile_photo_url ? asset(Auth::user()->profile_photo_url) : asset(MANAGER_DEFAULT_LOG) }}"
                         alt="" class="h-auto rounded-circle">
                 </div>
