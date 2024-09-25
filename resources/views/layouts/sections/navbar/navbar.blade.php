@@ -58,7 +58,7 @@
             <!-- 👉 /Search -->
         @endif
         <!-- 👉 Style Switcher -->
-        <li class="d-none nav-item me-2 me-xl-0">
+        <li class="nav-item me-2 me-xl-0">
             <a class="nav-link style-switcher-toggle hide-arrow" href="javascript:void(0);">
                 <i class='ti ti-md'></i>
             </a>
@@ -205,11 +205,22 @@
 
         <!--👉 User -->
         <li class="nav-item navbar-dropdown dropdown-user dropdown">
-            <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
+            <a style="display:flex" class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
                 <div class="avatar avatar-online">
                     <img src="{{ Auth::user()->profile_photo_url ? asset(Auth::user()->profile_photo_url) : asset(MANAGER_DEFAULT_LOG) }}"
                         alt="" class="h-auto rounded-circle">
                 </div>
+				<div class="flex-grow-1">
+					<span class="fw-semibold d-block text-capitalize">
+						@if (Auth::check())
+							{{ Auth::user()->name }}
+						@else
+							John Doe
+						@endif
+					</span>
+					<small
+						class="text-muted text-capitalize">{{ str_replace(['[', ']', '"'], '', Auth::user()->roles->pluck('name')) }}</small>
+				</div>
             </a>
             <ul class="dropdown-menu dropdown-menu-end">
                 <li>
