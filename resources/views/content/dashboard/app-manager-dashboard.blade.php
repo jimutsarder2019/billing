@@ -154,7 +154,78 @@
         </div>
 </div>
 <div class="card">
-  <div class="card-body">
+
+<div class="card-body">
+    <h4 class="card-title my-3">SYSTEM
+    </h4>
+    <div class="row g-4 mb-4">
+		<div class="col-sm-6 col-xl-3">
+			<div class="card">
+			  <div class="card-body card-body-2">
+				<div class="d-flex align-items-start justify-content-between">
+				  <div class="content-left">
+					<span class="badge bg-label-info p-2">
+					  <i class="ti ti-file icone_size_40"></i>
+					</span>
+				  </div>
+				  <div class="d-flex align-items-center my-1">
+					  <p>Uptime </br><span class="visible_area text-success">34 days</span></p>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  <div class="col-sm-6 col-xl-3">
+			<div class="card">
+			  <div class="card-body card-body-2">
+				<div class="d-flex align-items-start justify-content-between">
+				  <div class="content-left">
+					<span class="badge bg-label-primary p-2">
+					  <i class="ti ti-server icone_size_40"></i>
+					</span>
+				  </div>
+				  <div class="d-flex align-items-center my-1">
+					  <p>CPU </br><span class="visible_area text-success">0.0%</span></p>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  <div class="col-sm-6 col-xl-3">
+			<div class="card">
+			  <div class="card-body card-body-2">
+				<div class="d-flex align-items-start justify-content-between">
+				  <div class="content-left">
+					<span class="badge bg-label-success p-2">
+					  <i class="ti ti-user-check icone_size_40"></i>
+					</span>
+				  </div>
+				  <div class="d-flex align-items-center my-1">
+					  <p>Max User </br><span class="visible_area text-success">1000</span></p>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  <div class="col-sm-6 col-xl-3">
+			<div class="card">
+			  <div class="card-body card-body-2">
+				<div class="d-flex align-items-start justify-content-between">
+				  <div class="content-left">
+					<span class="badge bg-label-danger p-2">
+					  <i class="ti ti-file icone_size_40"></i>
+					</span>
+				  </div>
+				  <div class="d-flex align-items-center my-1">
+					  <p>Support Expired </br><span class="visible_area text-danger">2024-10-29</span></p>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+	</div>
+  </div>
+<div class="card-body">
     <h4 class="card-title my-3">DASHBOARD
 	<p class="toggleButton btn btn-xs btn-success">
         <i class="ti ti-eye-off"></i>
