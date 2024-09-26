@@ -227,8 +227,8 @@
   </div>
 <div class="card-body">
     <h4 class="card-title my-3">DASHBOARD
-	<p class="toggleButton btn btn-xs btn-success">
-        <i class="ti ti-eye-off"></i>
+	<p style="position:absolute; right:25px;" class="toggleButton btn btn-xs btn-success">
+        Show
       </p>
     </h4>
     <div class="row g-4 mb-4">
