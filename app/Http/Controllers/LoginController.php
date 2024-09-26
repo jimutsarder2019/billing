@@ -26,8 +26,9 @@ class LoginController extends Controller
             'password' => ['required'],
         ]);
         try {
-            $user = Manager::select('email')->where(['email' => $request->email])->first();
-            if (!$user) return back()->withErrors(['email' => 'The provided credentials do not match our records.',])->onlyInput('email');
+            $username = Customet::select('username')->where(['username' => $request->email])->first();
+			$user = Manager::select('email')->where(['email' => $request->email])->first();
+            if (!$user && !$username) return back()->withErrors(['email' => 'The provided credentials do not match our records.',])->onlyInput('email');
             $remember = ($request->has('remember')) ? true : false;
             if (Auth::guard('web')->attempt($credentials, $remember)) {
                 // $request->session()->regenerate();
