@@ -31,7 +31,11 @@
 
 use App\Models\AdminSetting;
 
-$admindata = new AdminSetting()
+$admindata = new AdminSetting();
+$amount_in_words = '';
+if(isset($data->amount)){
+   $amount_in_words = inwords($data->amount);
+}
 ?>
 @section('content')
 
@@ -90,7 +94,7 @@ $admindata = new AdminSetting()
             <p class="mb-1">{{$data->comment}}</p>
           </div>
           <div class="col-xl-7 col-md-12 col-sm-7 col-12">
-            <h6 class="mb-1">Bill To:</h6>
+            <h6 style="display:none" class="mb-1">Bill To:</h6>
             <table>
               <tbody>
                 <tr>
@@ -201,12 +205,16 @@ $admindata = new AdminSetting()
       </div>
 
       <div class="card-body mx-3">
-        <div class="row">
-          <div class="col-12">
-            <span class="fw-semibold">Note:</span>
-            <span>Thank You For Your Business</span>
-          </div>
-        </div>
+          <div class="row">
+			<div class="col-8">
+			  <span class="fw-bold">Amount in words:</span>
+			  <span>{{ $amount_in_words }}</span>
+			</div>
+			<div class="col-4">
+			  <span class="fw-bold">Invoice issued:</span>
+			  <span>{{auth()->user()->name}}</span>
+			</div>
+		  </div>
       </div>
     </div>
   </div>
