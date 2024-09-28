@@ -345,6 +345,24 @@
           "url": "db-backup",
           "slug": "db-backup",
           "permission": "Settings db-backup"
+        },
+		{
+          "url": "rc",
+          "name": "Clear Cache",
+          "slug": "rc",
+          "permission": "Activity Log All"
+        },
+		{
+          "url": "managers/log-history",
+          "name": "Logs History",
+          "slug": "managers/log-history",
+          "permission": "Activity Log All"
+        },
+		{
+          "url": "managers/log-history",
+          "name": "All Logs History",
+          "slug": "managers/log-history",
+          "permission": "Activity Log All"
         }
       ]
     },

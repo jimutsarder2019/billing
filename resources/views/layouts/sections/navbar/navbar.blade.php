@@ -258,7 +258,7 @@
                     </li>
                 @endcan
                 @can('Auth Manager Clear Cache')
-                    <li>
+                    <li style="display:none">
                         <a class="dropdown-item" href="{{ route('rc') }}">
                             <span class="d-flex align-items-center align-middle">
                                 <i class="flex-shrink-0 ti ti-refresh me-2 ti-sm"></i>
@@ -267,7 +267,7 @@
                     </li>
                 @endcan
                 @can('Activity Log Auth')
-                    <li>
+                    <li style="display:none">
                         <a class="dropdown-item" href="{{ route('log-history.index') }}">
                             <span class="d-flex align-items-center align-middle">
                                 <i class="flex-shrink-0 ti ti-info-circle me-2 ti-sm"></i>
@@ -276,7 +276,7 @@
                     </li>
                 @endcan
                 @can('Activity Log All')
-                    <li>
+                    <li style="display:none">
                         <a class="dropdown-item" href="{{ route('log-history.store') }}">
                             <span class="d-flex align-items-center align-middle">
                                 <i class="flex-shrink-0 ti ti-info-square me-2 ti-sm"></i>

@@ -269,6 +269,12 @@
             "name": "hasan mahmud",
             "subtitle": "hasan@gmail.com",
             "url": "manager-profile\/5"
+        },
+        {
+            "id": 6,
+            "name": "palash",
+            "subtitle": "palash@gmail.com",
+            "url": "manager-profile\/6"
         }
     ],
     "members": [
@@ -311,6 +317,14 @@
             "url": "http:\/\/127.0.0.1:8000\/user\/customer-user\/14",
             "manager_id": 5,
             "customer_for": "user"
+        },
+        {
+            "id": 15,
+            "name": "palash | 8823423423445",
+            "subtitle": "palash",
+            "url": "http:\/\/127.0.0.1:8000\/user\/customer-user\/15",
+            "manager_id": 1,
+            "customer_for": "app_manager"
         }
     ]
 }
