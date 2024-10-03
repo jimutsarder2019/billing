@@ -31,9 +31,14 @@ $customizerHidden = 'customizer-hide';
 <style>
 .custom-login{
 	background-color:rgb(44, 175, 254) !important;
+	border:none !important;
+}
+.login{
+	color: rgb(44, 175, 254) !important;
 }
 .custom-login:hover{
 	background-color:#ff4c3b !important;
+	border:none !important;
 }
 </style>
 <div class="container-xxl">
