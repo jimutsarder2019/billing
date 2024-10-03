@@ -24,7 +24,7 @@
 <div class="card">
   @can('Activity Log All')
   @if(count($get_files)>0)
-  <div class="card-header pb-3">
+  <div class="card-header pb-3" style="display:none">
     @foreach(array_reverse($get_files) as $file)
     <div class="d-flex float-start p-1">
       <?php $file_path = 'storage/backup/activity/' . $file['name'] ?>
