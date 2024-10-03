@@ -27,6 +27,15 @@ $customizerHidden = 'customizer-hide';
 @endsection
 
 @section('content')
+
+<style>
+.custom-login{
+	background-color:rgb(44, 175, 254) !important;
+}
+.custom-login:hover{
+	background-color:#ff4c3b !important;
+}
+</style>
 <div class="container-xxl">
     <div class="authentication-wrapper authentication-basic container-p-y">
         <div class="authentication-inner py-4">
@@ -76,7 +85,7 @@ $customizerHidden = 'customizer-hide';
                             </div>
                         </div>
                         <div class="mb-3">
-                            <button class="btn btn-primary d-grid w-100" type="submit">Login</button>
+                            <button class="btn btn-primary d-grid w-100 custom-login" type="submit">Login</button>
                         </div>
                     </form>
 

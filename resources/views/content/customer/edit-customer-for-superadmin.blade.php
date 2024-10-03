@@ -92,7 +92,7 @@
                 </div>
                 <div class="col-sm-12 col-md-12">
                     <button onclick="return confirm('are you sure to update it')" type="submit" class="btn btn-primary">Submit</button>
-                    <a href="{{route('mini-dashboard')}}" class="btn btn-warning">Back</a>
+                    <a href="/" class="btn btn-warning">Back</a>
                 </div>
             </div>
         </form>
