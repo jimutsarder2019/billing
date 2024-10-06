@@ -222,7 +222,7 @@
 						class="text-muted text-capitalize">{{ str_replace(['[', ']', '"'], '', Auth::user()->roles->pluck('name')) }}</small>
 				</div>
             </a>
-            <ul class="dropdown-menu dropdown-menu-end">
+            <ul style="display:none;" class="dropdown-menu dropdown-menu-end">
                 <li>
                     <a class="dropdown-item">
                         <div class="d-flex">

@@ -224,7 +224,7 @@ if(isset($data->amount)){
     <div class="card">
       <div class="card-body">
         @can('Invoice Print')
-        <a class="btn btn-label-secondary d-grid w-100 mb-2" target="_blank" href="{{route('billing-print-invoice', $data->id)}}">
+        <a class="btn btn-primary d-grid w-100 custom-login waves-effect waves-light" target="_blank" href="{{route('billing-print-invoice', $data->id)}}">
           Print
         </a>
         @endcan

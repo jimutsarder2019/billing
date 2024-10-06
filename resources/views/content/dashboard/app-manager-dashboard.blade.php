@@ -169,7 +169,7 @@
 					</span>
 				  </div>
 				  <div class="d-flex align-items-center my-1">
-					  <p>Uptime </br><span class="visible_area text-success">34 days</span></p>
+					  <p>Uptime </br><span class="visible_area2 text-success">34 days</span></p>
 				  </div>
 				</div>
 			  </div>
@@ -185,7 +185,7 @@
 					</span>
 				  </div>
 				  <div class="d-flex align-items-center my-1">
-					  <p>CPU </br><span class="visible_area text-success">0.0%</span></p>
+					  <p>CPU </br><span class="visible_area2 text-success">0.0%</span></p>
 				  </div>
 				</div>
 			  </div>
@@ -201,7 +201,7 @@
 					</span>
 				  </div>
 				  <div class="d-flex align-items-center my-1">
-					  <p>Max User </br><span class="visible_area text-success">1000</span></p>
+					  <p>Max User </br><span class="visible_area2 text-success">1000</span></p>
 				  </div>
 				</div>
 			  </div>
@@ -217,7 +217,7 @@
 					</span>
 				  </div>
 				  <div class="d-flex align-items-center my-1">
-					  <p>Support Expired </br><span class="visible_area text-danger">2024-10-29</span></p>
+					  <p>Support Expired </br><span class="visible_area2 text-danger">2024-10-29</span></p>
 				  </div>
 				</div>
 			  </div>
@@ -227,7 +227,7 @@
   </div>
 <div class="card-body">
     <h4 class="card-title my-3">DASHBOARD
-	<p style="position:absolute; right:25px;" class="toggleButton btn btn-xs btn-success">
+	<p style="position:absolute; right:25px;background-color:#28c76f;" class="toggleButton btn btn-xs btn-success">
         Show
       </p>
     </h4>
