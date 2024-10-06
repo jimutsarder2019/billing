@@ -227,7 +227,7 @@
   </div>
 <div class="card-body">
     <h4 class="card-title my-3">DASHBOARD
-	<p style="position:absolute; right:25px;background-color:#28c76f;" class="toggleButton btn btn-xs btn-success">
+	<p style="position:absolute; right:25px;background-color:#28c76f !important; border-color:#28c76f !important;" class="toggleButton btn btn-xs btn-success">
         Show
       </p>
     </h4>

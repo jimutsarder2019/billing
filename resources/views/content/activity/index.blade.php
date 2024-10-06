@@ -79,6 +79,7 @@
         <tr>
           <th>#ID</th>
           <th>User</th>
+          <th>IP Address</th>
           <th>Description</th>
           <th>Date</th>
           <!-- <th>Actions</th> -->
@@ -89,6 +90,7 @@
         <tr>
           <td>{{$item->id}}</td>
           <td>{{$item->causer->name}}</td>
+          <td>{{$item->batch_uuid}}</td>
           <td>{{$item->description}}</td>
           <td>{{$item->created_at->format('d-F-Y h:i A')}}</td>
         </tr>
