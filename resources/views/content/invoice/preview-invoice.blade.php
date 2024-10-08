@@ -42,7 +42,7 @@ if(isset($data->amount)){
 <div class="row invoice-preview">
   <!-- Invoice -->
   <div class="col-xl-9 col-md-8 col-12 mb-md-0 mb-4">
-    <div class="card invoice-preview-card">
+    <div class="card invoice-preview-card" id="invoice-content">
       <div class="card-body">
         <div class="d-flex justify-content-between flex-xl-row flex-md-column flex-sm-row flex-column m-sm-3 m-0">
           <div class="mb-xl-0 mb-4">
@@ -224,7 +224,7 @@ if(isset($data->amount)){
     <div class="card">
       <div class="card-body">
         @can('Invoice Print')
-        <a class="btn btn-primary d-grid w-100 custom-login waves-effect waves-light" target="_blank" href="{{route('billing-print-invoice', $data->id)}}">
+        <a class="btn btn-primary d-grid w-100 custom-login waves-effect waves-light" onclick="printInvoice()" href="javascript:void(0)">
           Print
         </a>
         @endcan
@@ -238,3 +238,13 @@ if(isset($data->amount)){
 @include('_partials/_offcanvas/offcanvas-add-payment')
 <!-- /Offcanvas -->
 @endsection
+<script>
+    function printInvoice(){
+		
+	  var body = document.getElementById('body').innerHTML;
+	  var invoiceData = document.getElementById('invoice-content').innerHTML;
+	  document.getElementById('body').innerHTML = invoiceData;
+      window.print();
+	  document.getElementById('body').innerHTML = body;
+    }
+</script>

@@ -5,6 +5,11 @@
   .icone_size_40 {
     font-size: 40px;
   }
+  
+  .b-enable{
+	  background-color: #28c76f !important;
+      border-color: #28c76f !important;
+  }
 </style>
 
 <div class="card mb-3">
@@ -227,7 +232,7 @@
   </div>
 <div class="card-body">
     <h4 class="card-title my-3">DASHBOARD
-	<p style="position:absolute; right:25px;background-color:#28c76f !important; border-color:#28c76f !important;" class="toggleButton btn btn-xs btn-success">
+	<p style="position:absolute; right:25px;" class="toggleButton btn btn-xs btn-success">
         Show
       </p>
     </h4>
@@ -553,6 +558,7 @@
   $(document).ready(function() {
     $('.toggleButton').click(function() {
       $('.visible_area').toggleClass('d-none');
+	  $(this).toggleClass('b-enable');
     });
   });
 </script>

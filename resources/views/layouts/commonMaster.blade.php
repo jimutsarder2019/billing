@@ -24,7 +24,7 @@
   @include('layouts/sections/scriptsIncludes')
 </head>
 
-<body>
+<body id="body">
   <!-- Layout Content -->
   @yield('layoutContent')
   <!--/ Layout Content -->
