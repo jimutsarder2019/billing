@@ -91,12 +91,12 @@
                     </div>
 					<div class="form-group d-flex">
                         <div class="w-75">
-                            <label class="form-label" for="site_logo">Favicon @if($errors->has('site_logo'))<span class="text-danger"> {{$errors->first('site_logo')}}</span> @endif</label>
-                            <input type="file" name="site_logo" id="site_logo" placeholder="" class="form-control" />
-                            <input type="hidden" name="old_site_logo" value="{{$data->where('slug','company_website')->first() ? $data->where('slug','company_website')->first()->value : ''}}" />
+                            <label class="form-label" for="site_favicon">Favicon @if($errors->has('site_favicon'))<span class="text-danger"> {{$errors->first('site_favicon')}}</span> @endif</label>
+                            <input type="file" name="site_favicon" id="site_favicon" placeholder="" class="form-control" />
+                            <input type="hidden" name="old_site_favicon" value="{{$data->where('slug','company_website')->first() ? $data->where('slug','company_website')->first()->value : ''}}" />
                         </div>
                         <div class="w-25">
-                            <img width="60" class="border p-1 float-end" src="{{$data->where('slug','site_logo')->first() ? asset($data->where('slug','site_logo')->first()->value) : ''}}" alt="">
+                            <img width="60" class="border p-1 float-end" src="{{$data->where('slug','site_favicon')->first() ? asset($data->where('slug','site_favicon')->first()->value) : ''}}" alt="">
                         </div>
                     </div>
                     <div class="form-group mt-2">

@@ -47,6 +47,16 @@ class SystemSettingController extends Controller
 
                 // other inputs 
                 if (!empty($value) && $key !== 'old_site_logo') $this->updateOrCreateSetting($key, $value);
+				
+				
+				// favicon upload 
+                if ($key == 'site_favicon') {
+                    $value = fileUpload($request->site_favicon, 'uploads/favicon/', $request->old_site_favicon);
+                    $this->updateOrCreateSetting($key, $value);
+                }
+
+                // other inputs 
+                if (!empty($value) && $key !== 'old_site_favicon') $this->updateOrCreateSetting($key, $value);
             }
             notify()->success("Save Successfully");
             DB::commit();
