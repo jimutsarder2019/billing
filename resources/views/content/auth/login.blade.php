@@ -64,9 +64,9 @@ $customizerHidden = 'customizer-hide';
                     <form id="formAuthentication" class="mb-3" action="{{route('login.post')}}" method="POST">
                         @csrf
                         <div class="mb-3">
-                            <label for="email" class="form-label">Email or Username</label>
-                            @if($errors->has('email')) <br><small class="text-danger"> {{$errors->first('email')}}</small> @endif
-                            <input type="email" class="form-control" id="email" name="email" value="{{old('email')}}" placeholder="Enter your email or username" autofocus>
+                            <label for="prefix_text" class="form-label">Email or Username</label>
+                            @if($errors->has('prefix_text')) <br><small class="text-danger"> {{$errors->first('prefix_text')}}</small> @endif
+                            <input type="text" class="form-control" id="prefix_text" name="prefix_text" value="{{old('prefix_text')}}" placeholder="Enter your email or username" autofocus>
                         </div>
                         <div class="mb-3 form-password-toggle">
                             <div class="d-none d-flex justify-content-between">

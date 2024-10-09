@@ -103,6 +103,8 @@ class Customer extends Controller
 			$manager = new ManagerModel();
 			$manager->type = 'user';
 			$manager->name = $request->name;
+			$manager->user_id = $data->id;
+			$manager->prefix_text = $request->username;
 			$manager->email = $request->email;
 			$manager->password = Hash::make($request->password);
 			$manager->phone = $request->phone;
@@ -446,6 +448,13 @@ class Customer extends Controller
             $user->customer_for         = auth()->user()->type ?? $user->customer_for;
             $user->manager_id           = auth()->user()->id ?? $user->manager_id;
             $user->save();
+			
+			/*if(auth()->user()->id){
+			    $manager_model = ManagerModel::find(auth()->user()->id);
+			    $manager_model->prefix_text = $user->username;
+			    //$manager_model->prefix_text = $user->password;
+				$manager_model->save();
+			}*/
             if ($request->note) {
                 CustomerEditHistory::create([
                     'customer_id' => $user->id,

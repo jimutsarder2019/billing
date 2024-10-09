@@ -22,14 +22,26 @@ class LoginController extends Controller
     public function authenticate(Request $request)
     {
         $credentials = $request->validate([
-            'email' => ['required', 'email'],
+            'prefix_text' => ['required'],
             'password' => ['required'],
         ]);
+		$credentials_email = [];
+		$credentials_email['email'] = $credentials['prefix_text'];
+		$credentials_email['password'] = $credentials['password'];
+		/*$credentials_email = $request->validate([
+            'email' => ['required'],
+            'password' => ['required'],
+        ]);*/
+		/*print '<pre>';
+		print_r($credentials_email);
+		print '</pre>';
+		die;*/
         try {
-            $user = Manager::select('email')->where(['email' => $request->email])->first();
-            if (!$user) return back()->withErrors(['email' => 'The provided credentials do not match our records.',])->onlyInput('email');
+            $user_email = Manager::select('email')->where(['email' => $request->prefix_text])->first();
+            $user_name = Manager::select('prefix_text')->where(['prefix_text' => $request->prefix_text])->first();
+            if (!$user_name && !$user_email) return back()->withErrors(['email' => 'The provided credentials do not match our records.',])->onlyInput('email');
             $remember = ($request->has('remember')) ? true : false;
-            if (Auth::guard('web')->attempt($credentials, $remember)) {
+            if (Auth::guard('web')->attempt($credentials, $remember) || Auth::guard('web')->attempt($credentials_email, $remember)) {
                 // $request->session()->regenerate();
                 //$this->searchableData();
 				if(auth()->user()->type == 'user'){
