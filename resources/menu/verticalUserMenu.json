@@ -30,14 +30,14 @@
     },
 	{
         "url": "user-ticket-history",
-        "name": "Grace History",
+        "name": "Grace",
 		"icon": "menu-icon bi bi-ticket",
         "slug": "user-ticket-history",
         "permission": "Ticket"
     },
 	{
         "url": "user-ticket",
-        "name": "Grace Ticket",
+        "name": "Ticket",
 		"icon": "menu-icon bi bi-ticket",
         "slug": "user-ticket",
         "permission": "Ticket"

@@ -107,7 +107,7 @@
   <table class="datatables-users table border-top">
     <thead>
       <tr>
-        <th><i class="fa fa-cogs"></i></th>
+        <th style="display:none"><i class="fa fa-cogs"></i></th>
         <th>#ID</th>
         <th>invoice_no</th>
         <th>Name</th>
@@ -124,12 +124,13 @@
         <th>due amount</th>
         <th>advanced amount</th>
         <th>Comment</th>
+        <th>Action</th>
       </tr>
     </thead>
     <tbody>
       @foreach($data as $item)
       <tr>
-        <td>
+        <td style="display:none">
           <div class="dropdown">
             <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown"><i class="ti ti-dots-vertical"></i></button>
             <div class="dropdown-menu">
@@ -186,6 +187,11 @@
         <td>{{$item->due_amount}}</td>
         <td>{{$item->advanced_amount}}</td>
         <td>{{$item->comment}}</td>
+        <td>
+		 @can('Invoice Details')
+              <a href="{{route('invoice.show', $item->id)}}" class="btn btn-primary btn-sm dropdown-toggle hide-arrow waves-effect waves-light">View Invoice</a>
+         @endcan
+		</td>
       </tr>
       @endforeach
     </tbody>

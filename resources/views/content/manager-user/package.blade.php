@@ -41,8 +41,7 @@
                         <table class="table datatable-invoice">
                             <thead>
                                 <tr>
-                                    <th>ID</th>
-                                    <th>Name</th>
+                                    <th>Package Name</th>
                                     <th>Price</th>
                                     <th>Date</th>
                                 </tr>
@@ -51,7 +50,6 @@
                                 @if ($data->packageHistory->count() > 0)
                                     @foreach ($data->packageHistory as $item)
                                         <tr>
-                                            <td>{{ $item->package ? $item->package->id : 'N/A' }}</td>
                                             <td>{{ $item->package ? $item->package->name : 'N/A' }}</td>
                                             <td>{{ $item->package ? $item->package->price : '0' }} TK</td>
                                             <td>{{ $item->created_at }}</td>
