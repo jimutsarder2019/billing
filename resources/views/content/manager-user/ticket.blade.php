@@ -62,6 +62,8 @@
                                         <tr>
                                             <th>ticket No</th>
                                             <th>Created Date</th>
+                                            <th>Issue/Category</th>
+                                            <th>Issue Create By</th>
                                             <th>Solved Date</th>
                                             <th>Status</th>
                                             <th>Note</th>
@@ -69,9 +71,15 @@
                                     </thead>
                                     <tbody>
                                         @foreach ($tickets as $index => $item)
+										    <?php 
+											$ticket_category = App\Models\TicketCategory::where('id', $item->ticket_category_id)->first(); 
+											$manager = App\Models\Manager::where('id', $item->manager_id)->first(); 
+											?>
                                             <tr>
                                                 <td>{{ $item->ticket_no }}</td>
                                                 <td>{{ $item->created_at->format('d-m-y h:m a') }}</td>
+												<td>{{ $ticket_category->name }}</td>
+												<td>{{ $manager->name }}</td>
                                                 <td>{{ $item->updated_at->format('d-m-y h:m a') }}</td>
                                                 <td>{{ $item->status }}</td>
                                                 <td><a href='{{ route('ticket.show', $item->id) }}'><i
