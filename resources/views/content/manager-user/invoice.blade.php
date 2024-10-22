@@ -51,6 +51,7 @@
                                 <th>received amount</th>
                                 <th>status</th>
                                 <th>received Date</th>
+                                <th>Action</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -105,6 +106,7 @@
                                             @if ($inv_item->status !== STATUS_PENDING)
                                                 {{ $inv_item->updated_at->format('d-m-Y h:i:s a') }} @endif
                                         </td>
+										<td><a href="{{route('invoice.show', $inv_item->id)}}" class="btn btn-primary waves-effect waves-light">View Invoice</a></td>
                                     </tr>
                                 @endforeach
                             </tbody>

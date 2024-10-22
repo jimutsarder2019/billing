@@ -10,8 +10,14 @@
                     @method('put')
                     @csrf
                     <div class="col-12 text-center mt-2">
-                        Package: {{$user->package->name}} <br>
+                        <?php if(isset($user->package->name)){ ?>
+						
+						Package: {{$user->package->name}} <br>
+						<?php } ?>
+						
+						<?php if(isset($user->package->price)){ ?>
                         Bill: {{$user->package->price}} TK<br>
+						<?php } ?>
                         User Discount: {{$user->discount}} TK <br>
                         Name: {{$user->full_name}}
                     </div>

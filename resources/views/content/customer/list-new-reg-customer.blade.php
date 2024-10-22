@@ -33,8 +33,16 @@
           <td>{{$user->email}}</td>
           <td>{{$user->national_id}}</td>
           <td>{{$user->phone}}</td>
-          <td>{{$user->zone->name}}</td>
-          <td>{{$user->package->name}}</td>
+          <td>
+		  <?php if(isset($user->zone->name)){ ?>
+		  {{$user->zone->name}}
+		  <?php } ?>
+		  </td>
+          <td>
+		  <?php if(isset($user->package->name)){ ?>
+		  {{$user->package->name}}
+		  <?php } ?>
+		  </td>
           <td>{{$user->bill}}</td>
           <td>{{$user->discount}}</td>
           <td>{{$user->billing_date}}</td>

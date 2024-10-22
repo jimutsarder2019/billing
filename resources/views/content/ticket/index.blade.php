@@ -88,7 +88,7 @@
                     </select>
                 </form>
                 @can('Ticket Add')
-                    <a href='{{ route("$route.create") }}' class="ml-4 btn btn-primary">Add item</a>
+                    <a href='{{ route("$route.create") }}' class="ml-4 btn btn-primary">Ticket Create</a>
                 @endcan
             </div>
         </div>
@@ -96,22 +96,27 @@
             <table class="datatables-users table border-top">
                 <thead>
                     <tr>
-                        <th>#ID</th>
                         <th><i class="fa fa-cogs"></i></th>
                         <th>ticket No</th>
-                        <th>Name</th>
+                        <th>User Name</th>
                         <th>phone</th>
                         <th>Created Date</th>
                         <th>Priority</th>
                         <th>Category</th>
+                        <th>Ticket Create By</th>
                         <th>status</th>
                         <th>Solved At</th>
                     </tr>
                 </thead>
                 <tbody>
                     @foreach ($data as $item)
+					
+					    <?php 
+							$ticket_category = App\Models\TicketCategory::where('id', $item->ticket_category_id)->first(); 
+							$manager = App\Models\Manager::where('id', $item->manager_id)->first(); 
+						?>
+															
                         <tr>
-                            <td>{{ $item->id }}</td>
                             <td>
                                 <div class="dropdown">
                                     <button type="button" class="btn p-0 dropdown-toggle hide-arrow"
@@ -149,6 +154,8 @@
                                 <br>
                                 <small>{{ $item->ticket_category->priority }}</small>
                             </td>
+							
+							<td>{{ $manager->name }}</td>
                             <td>
                                 <form action="{{ route('ticket.show', $item->id) }}">
                                     <select name="status"
