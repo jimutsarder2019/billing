@@ -1,3 +1,8 @@
+<?php
+use App\Models\AdminSetting;
+
+$settings =  AdminSetting::select('slug', 'value')->get();
+?>
 <!DOCTYPE html>
 
 <html lang="{{ session()->get('locale') ?? app()->getLocale() }}" class="{{ $configData['style'] }}-style {{ $navbarFixed ?? '' }} {{ $menuFixed ?? '' }} {{ $menuCollapsed ?? '' }} {{ $footerFixed ?? '' }} {{ $customizerHidden ?? '' }}" dir="{{ $configData['textDirection'] }}" data-theme="{{ $configData['theme'] }}" data-assets-path="{{ asset('/assets') . '/' }}" data-base-url="{{url('/')}}" data-framework="laravel" data-template="{{ $configData['layout'] . '-menu-' . $configData['theme'] . '-' . $configData['style'] }}">
@@ -16,7 +21,7 @@
   <!-- Canonical SEO -->
   <link rel="canonical" href="{{ config('variables.productPage') ? config('variables.productPage') : '' }}">
   <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/favicon/favicon.ico') }}" />
+  <link rel="icon" type="image/x-icon" href="{{$settings->where('slug','site_favicon')->first() ? asset($settings->where('slug','site_favicon')->first()->value) : asset('assets/img/favicon/favicon.ico')}}" />
   @notifyCss
   <!-- Include Styles -->
   @include('layouts/sections/styles')
